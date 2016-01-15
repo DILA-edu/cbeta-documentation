@@ -8,7 +8,7 @@ http://www.cbeta.org/
 
 ## XML
 
-CBETA 文本採用的主要格式。
+CBETA 文本採用的主要格式，說明詳見 XML 資料夾。
 
 ## BM
 
