@@ -1,4 +1,4 @@
-# cbeta-documentation
+# CBETA Documentation
 
 CBETA 技術說明文件。
 
