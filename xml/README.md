@@ -10,6 +10,10 @@ CBETA XML 有兩種，內部使用 P5a，再經由程式轉為 P5 版本對外�
 
 P5a 與 P5 兩種版本的檔案結構相同，詳見 [file-structure.md](file-structure.md)。
 
+## XML 檔內容架構
+
+詳見 [xml-structure.md](xml-structure.md)
+
 ## Global Attributes
 
 XML 所有元素共用的屬性，詳見 [global-attributes.md](global-attributes.md)。

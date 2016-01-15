@@ -2,6 +2,59 @@
 
 參考：[TEI note 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-note.html)
 
+## 大正藏校勘原文
+
+大正藏校勘原文以 `<note type="orig">` 記錄
+
+例：T01, No. 1, p. 1，大正藏原文：
+
+	T01n0001_p0001a14║言法歸。法歸者。蓋是萬善之淵府。總持之林
+	T01n0001_p0001a15║苑。其為典也。淵博弘富。[05]韞而彌廣。明宣禍
+
+頁尾校勘條目：[05] 韞＝溫【宋】【元】
+
+XML 標記:
+
+```xml
+<lb n="0001a15"/>苑。其為典也。淵博弘富。
+<note n="0001005" resp="Taisho" type="orig" place="foot text">韞＝溫【宋】【元】</note>
+而彌廣。明宣禍
+```
+
+n="0001005" 表示第1頁的第5個校勘
+
+place="foot text" 表示在內文(text)中有校勘數字 [05], 在頁尾(foot)有校勘內容. 有少數例外情形, 內文中有校勘數字, 頁尾卻無對應校勘; 或者頁尾有校勘文字, 內文中卻無對應校勘數字.
+
+大正藏校勘欄使用許多略符，請參考 CBETA 網站文件：
+
+* [校異略符](http://www.cbeta.org/format/abbr_app.php)
+* [對校略符](http://www.cbeta.org/format/abbr_dz.php)
+
+## 經 CBETA 修訂的校勘文字標記
+
+經 CBETA 修訂的校勘文字標記以 `<note type="mod">` 記錄. (mod means modified)
+
+例如：T01, No. 1, p. 1，大正藏原文
+
+	T01n0001_p0001b10║[12]後秦弘始年佛陀耶舍共竺佛念譯
+
+頁尾校勘條目
+
+	[12] 後秦弘始年＝姚秦三藏法師【三】
+
+說明：【三】是指【宋】【元】【明】三本, 所以 CBETA 將 【三】直接修訂為【宋】【元】【明】
+
+XML 標記
+
+```xml
+<lb n="0001b10"/><byline type="Translator">
+<note n="0001012" resp="Taisho" type="orig" place="foot text">後秦弘始年＝姚秦三藏法師【三】</note>
+<note n="0001012" resp="CBETA" type="mod">後秦弘始年＝姚秦三藏法師【宋】【元】【明】</note>
+後秦弘始年姚秦三藏法師佛陀耶舍共竺佛念譯</byline>
+```
+
+resp="CBETA" 表示是由 CBETA 所作修訂. (resp means responsibility)
+
 ## place
 
 ### place="foot"
@@ -74,6 +127,8 @@ T01n0001.xml, p. 30a17
 （二）第一分<note n="0011004" resp="Taisho" type="orig" place="foot text">遊行經～D. 10. Mahāparinibbānasuttanta.</note>
 <note n="0011004" place="foot" type="equivalent">遊行經～D. 10. Mahāparinibbānasuttanta.</note>遊行經第二
 ```
+
+上面的「D.」表示「長部」，請參考 CBETA [巴利語書名略號](http://www.cbeta.org/format/pali.php)。
 
 ### type="mod"
 
