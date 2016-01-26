@@ -140,6 +140,12 @@ teiHeader 分成 fileDesc, encodingDesc, profileDesc, revisionDesc 四大部份,
 </text>
 ```
 
+大部份佛典都是從第一卷開始，但是有例外，例如：X03n0208 《華嚴經論〔卷十〕》是從第十卷開始，XML 檔裡的第一個 milestone 如下：
+
+```xml
+<milestone unit="juan" n="10"/>
+```
+
 大正藏的卷首資訊、卷末資訊, 格式不一, 時有時無, 以 CBETA 自訂標記 `<juan>` 記錄:
 
 ```xml
