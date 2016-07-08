@@ -16,7 +16,7 @@ P5a 與 P5 兩種版本的檔案結構相同，詳見 [file-structure.md](file-s
 
 ## Global Attributes
 
-XML 所有元素共用的屬性，詳見 [global-attributes.md](global-attributes.md)。
+XML 所有元素共用的屬性，詳見 [global-attributes](global-attributes/README.md)。
 
 ## P5a
 
