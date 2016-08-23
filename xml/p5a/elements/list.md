@@ -12,3 +12,15 @@
   <item xml:id="itemT08p0482b0601">變謀明慧品</item>
 </list>
 ```
+
+## rend="simple"
+
+B17n0092.xml, p. 630a13
+
+```xml
+<list rend="simple">
+  <item><p rend="margin-left:5em;text-indent:-2em">一、訪聞近日僧尼等⋯⋯準此酬賞。</p></item>
+  <item><p rend="margin-left:5em;text-indent:-2em">一、此後如有修補寺宇功德⋯⋯</p></item>
+  ⋯⋯
+</list>
+```
