@@ -16,6 +16,14 @@
 <lb n="0323a16" ed="T"/>成就。</p>
 ```
 
+## rend 屬性放 CSS
+
+X79n1559.xml, p. 450a10
+
+```xml
+<p rend="margin-left:1em;text-indent:-1em">...</p>
+```
+
 ## type="dharani" 咒語
 
 T12n0375.xml, p. 609c04
