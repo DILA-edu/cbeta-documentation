@@ -7,3 +7,11 @@
 ```xml
 <byline cb:type="Author">長安釋僧肇述</byline>
 ```
+
+## type="Translator"
+
+T12n0389.xml, p. 1110c15
+
+```xml
+<byline cb:type="Translator">後秦龜茲國三藏鳩摩羅什奉　詔譯</byline>
+```
