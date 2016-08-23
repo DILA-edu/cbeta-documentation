@@ -4,6 +4,18 @@
 
 參考：[TEI p 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-p.html)
 
+## rend="inline"
+
+底本未分段，CBETA 加上的分段，例 T11n0310.xml, p. 323a12
+
+```xml
+<lb n="0323a12" ed="T"/>煮四大漸成。</p><p rend="inline">「第二七日處母胎時，所感業
+<lb n="0323a13" ed="T"/>風名為遍滿。其風微細吹母左脇及以右脇，
+<lb n="0323a14" ed="T"/>令歌羅邏身相漸現，狀如稠酪、或似凝酥，內
+<lb n="0323a15" ed="T"/>熱煎煮便即轉為安浮陀身，如是四大漸漸
+<lb n="0323a16" ed="T"/>成就。</p>
+```
+
 ## type="dharani" 咒語
 
 T12n0375.xml, p. 609c04
