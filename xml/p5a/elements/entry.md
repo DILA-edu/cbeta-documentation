@@ -12,4 +12,17 @@ X64, No. 1261, 《祖庭事苑》, p0314b02
     <p>說者曰。善人有不善人。然後善救之功著。故曰資。</p>
   </def>
 </entry>
+```
+
+## place="inline"
+
+X64, No. 1263, p. 471a10
+
 ```xml
+<entry cb:place="inline" rend="margin-left:1em">
+  <form>張</form>
+  <cb:def>
+    <p xml:id="pX64p0471a1005" rend="margin-left:1em;inline">施也。</p>
+  </cb:def>
+</entry>
+```
