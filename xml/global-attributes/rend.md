@@ -18,3 +18,11 @@ T54n2132, p. 1186b04
 ```xml
 二明稽首者古文為<term rend="no_nor"><g ref="#CB05129"/></term>
 ```
+
+## CSS
+
+例 X68n1319, p. 577c09
+
+```xml
+<p rend="margin-left:1em">問。念佛之心。無雜無間。即精進度。...</p>
+```
