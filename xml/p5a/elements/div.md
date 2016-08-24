@@ -26,6 +26,18 @@
 </cb:div>
 ```
 
+## type="hui"
+
+例 T36n1742, p. 1053a28
+
+```xml
+<cb:div type="hui">
+  <cb:mulu level="1" type="會">3 忉利天宮說六品三卷</cb:mulu>
+  <head>第三會忉利天宮說六品三卷</head>
+  ...
+</cb:div>
+```
+
 ## type="jing"
 
 例 T01n0001.xml, p. 109c22
