@@ -29,3 +29,15 @@
   <p xml:id="pB25p0726a0601" rend="margin-left:1em">師拈云北斗藏身話⋯⋯</p>
 </cb:div>
 ```
+
+## type="xu" 序
+
+例 X81n1570.xml, p. 327a19
+
+```xml
+<cb:div type="xu">
+  <cb:mulu type="序" level="1">No. 1570-B 五燈全書目序</cb:mulu>
+  <head>No. 1570-B 五燈全書目序</head>
+  ...
+</cb:div>
+```
