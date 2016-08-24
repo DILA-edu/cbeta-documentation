@@ -31,6 +31,26 @@
 
 `<l>` 預設不空格，除非有 rend 的設定，就依 rend。
 
+例 T85n2829.xml, p. 1267b11, 
+
+BM:
+
+```
+T85n2829_p1267b11T##║一切普誦　如來妙色身　世間無與等　無
+T85n2829_p1267b12T##║比不思議　是故今敬禮　如來色無盡　智
+T85n2829_p1267b13T##║慧亦復然　一切法常住　是故歸依敬禮常
+T85n2829_p1267b14t##║住三寶
+```
+
+XML:
+
+```xml
+<lb n="1267b11" ed="T"/><lg type="abnormal"><l>一切普誦</l><l rend="text-indent:1em">如來妙色身</l><l rend="text-indent:1em">世間無與等</l><l rend="text-indent:1em">無
+<lb n="1267b12" ed="T"/>比不思議</l><l rend="text-indent:1em">是故今敬禮</l><l rend="text-indent:1em">如來色無盡</l><l rend="text-indent:1em">智
+<lb n="1267b13" ed="T"/>慧亦復然</l><l rend="text-indent:1em">一切法常住</l><l rend="text-indent:1em">是故歸依敬禮常
+<lb n="1267b14" ed="T"/>住三寶</l></lg>
+```
+
 ## l 的 parent 不是 lg
 
 l 可能不是直接被包在 lg 裡，而是在 lem 裡面，計算第幾個 l 的時候要注意，例如 T18n0908.xml:
