@@ -23,10 +23,10 @@ CBETA 佛典集成收錄多套藏經，每套藏經給予一個唯一的 ID，�
 ## 藏經排序
 
 目錄排序（以下為各個藏經代碼）:  
-T X A K S F C U P J L G M D N H I W B GA GB
+T X A K S F C U P J L G M D N ZS I ZW B GA GB
 
 全文檢索結果依據資料的參考價值按以下藏經代碼排序:  
-T X A K S F C D U P J L G M N H I W B GA GB
+T X A K S F C D U P J L G M N ZS I ZW B GA GB
 
 上面兩種排序主要差別在 D 《國家圖書館善本佛典》。
 
