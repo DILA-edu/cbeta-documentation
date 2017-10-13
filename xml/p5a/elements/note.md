@@ -93,6 +93,20 @@ T01n0001.xml, p. 30a17
 
 ## type
 
+type 屬性可能有這些：
+* cf1
+* cf2
+* cf3
+* equivalent
+* foot
+* inline
+* mod
+* orig
+* orig_biao
+* orig_ke
+* rest
+* star
+
 ### type="orig"
 
 底本校勘註
