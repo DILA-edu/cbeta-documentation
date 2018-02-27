@@ -9,6 +9,8 @@
 * sa 梵文
 * zh 中文
 
+最新標準參考 W3C 2014 [Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/)
+
 ### sa-Sidd
 
 梵文-悉曇字
