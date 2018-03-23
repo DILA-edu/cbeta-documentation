@@ -4,7 +4,7 @@ CBETA XML 主要依據 [TEI](http://www.tei-c.org)。
 
 CBETA XML 有兩種，內部使用 P5a，再經由程式轉為 P5 版本對外公開。
 
-兩種版本的主要差別是，P5 的校勘移到最後的 back 裡，P5a 的校勘則是在內文裡。
+兩種版本的差別詳見 [p5-p5a-diff.md](p5-p5a-diff.md)。
 
 ## 檔案結構
 
