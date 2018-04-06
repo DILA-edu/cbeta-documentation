@@ -55,7 +55,7 @@ XML 標記
 
 resp="CBETA" 表示是由 CBETA 所作修訂. (resp means responsibility)
 
-## place
+## @place
 
 ### place="foot"
 
@@ -91,7 +91,7 @@ T01n0001.xml, p. 30a17
 如來我若欲見隨意即見<note place="interlinear">以下正明欲見即見之故</note>我能了知如來國土莊嚴
 ```
 
-## type
+## @type
 
 type 屬性可能有這些：
 * cf1
@@ -177,7 +177,7 @@ type 屬性可能有這些：
 <note n="0578006" place="foot" type="rest">品末題在卷末題前行【宋】【元】【明】</note>穢品第三竟
 ```
 
-## 校勘編號 n
+## 校勘編號 @n
 
 一條校勘經 CBETA 修訂，可能拆成兩個，例 T85n2882, p. 1383c26:
 
@@ -185,6 +185,14 @@ type 屬性可能有這些：
 <note n="1383062" resp="Taisho" type="orig" place="foot text">〔不得…枝〕二十四字－【甲】</note>
 <note n="1383062a" resp="CBETA" type="mod">〔不得停止〕－【甲】</note>...
 <note n="1383062b" resp="CBETA" type="mod">〔佛有…枝〕二十字－【甲】</note>
+```
+編號為 0 的特例，T32n1645, p. 238a29
+
+```xml
+<note resp="Taisho" n="0238000" place="foot" type="orig">
+  (A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照</note>
+<note resp="CBETA" n="0238000" type="mod">
+  (A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照（CBETA 按：大正藏校勘欄有「(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照」之校勘條目，但此頁內文及大正藏校勘欄無相對應之校勘符號，故將此頁校勘符號作[00]處理，並置於本頁內文最後。）</note>
 ```
 
 ## resp="CBETA"
