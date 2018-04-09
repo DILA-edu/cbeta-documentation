@@ -25,3 +25,26 @@ XML
 ```
 
 上面 rdg 元素的 wit 屬性請參考 [../attributes/wit.md](../attributes/wit.md)
+
+## @type
+
+### star_removed
+
+type="star_removed" 表示底本有個星號「＊」校勘，CBETA 修訂拿掉這個「＊」校勘。
+因為 CBETA 在這裡選擇跟底本不同的用字，已經不適用「下同」。
+
+此類標記在呈現底本時顯示星號「＊」，呈現 CBETA 版本時則不顯示星號「＊」。
+
+例如 T01n0023.xml, p. 303c29
+
+```xml
+<lb n="0303a10" ed="T"/>...<app n="0303004">...</app>
+... (中略) ...
+<lb n="0303c29" ed="T"/>...
+<note n="0303c2901" resp="CBETA" type="add">越【CB】【磧-CB】，趣【大】，越【宋】【元】【明】</note>
+<app type="star_removed" corresp="#0303004">
+  <lem wit="【CB】【磧-CB】" resp="CBETA.maha">越<note type="cf1">Q18_p0745a18</note><note type="cf2">T01n0023_p0277b11</note></lem>
+  <rdg wit="【大】">趣</rdg>
+  <rdg resp="Taisho" wit="【宋】【元】【明】">越</rdg>
+</app>
+```
