@@ -94,6 +94,8 @@ T01n0001.xml, p. 30a17
 ## @type
 
 type 屬性可能有這些：
+
+* add
 * cf1
 * cf2
 * cf3
@@ -175,6 +177,16 @@ type 屬性可能有這些：
   <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
 </app>
 <note n="0578006" place="foot" type="rest">品末題在卷末題前行【宋】【元】【明】</note>穢品第三竟
+```
+
+### type="add"
+
+CBETA 新增的校註，例 T27n1545.xml, p. 3a19
+
+```xml
+<note n="0003a1901" resp="CBETA.maha" type="add">
+  本頁校勘欄有校勘條目[02]，但內文出現兩處註標[02]，故此處內文註標改以[02A]表示。
+</note>
 ```
 
 ## 校勘編號 @n
