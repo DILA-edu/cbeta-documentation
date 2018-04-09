@@ -189,6 +189,41 @@ CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 </note>
 ```
 
+## @subtype
+
+### subtype="shift" 位移
+
+CBETA 校註說明這裡的修訂是文字的移動，例 X10n0262
+
+```xml
+<lb ed="X" n="0601c24"/>...
+<note n="0601c2401" resp="CBETA" type="add" subtype="shift">一【CB】，［－］【卍續】</note>
+<app n="0601c2401">
+  <lem wit="【CB】" resp="CBETA.maha">一</lem>
+  <rdg wit="【卍續】"><space quantity="0"/></rdg>
+</app>
+... ... ...
+<lb ed="X" n="0603a01"/>...
+<note n="0603a0101" resp="CBETA" type="add" subtype="shift">［－］【CB】，一【卍續】</note>
+<app n="0603a0101">
+  <lem wit="【CB】" resp="CBETA.maha"><space quantity="0"/></lem>
+  <rdg wit="【卍續】">一</rdg>
+</app>
+```
+	
+### subtype="規範字詞"
+
+CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印順法師佛學著作集》Y01n0001.xml
+
+```xml
+<lb n="0019a08" ed="Y"/>...
+<note n="0019a0801" resp="CBETA" type="add" subtype="規範字詞">稟【CB】，禀【印順】</note>
+<app n="0019a0801">
+  <lem wit="【CB】" resp="CBETA">稟</lem>
+  <rdg wit="【印順】">禀</rdg>
+</app>受大乘佛法。什公一面翻譯，一面講學。所翻的大乘經論很多，
+```
+
 ## 校勘編號 @n
 
 一條校勘經 CBETA 修訂，可能拆成兩個，例 T85n2882, p. 1383c26:
