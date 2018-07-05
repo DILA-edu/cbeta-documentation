@@ -93,46 +93,24 @@ T01n0001.xml, p. 30a17
 
 ## @type
 
-type 屬性可能有這些：
+type 屬性可能的值：add, authorial, cf1, cf2, cf3, equivalent, foot, inline, mod, orig, orig_biao, orig_ke, rest, star
 
-* add
-* cf1
-* cf2
-* cf3
-* equivalent
-* foot
-* inline
-* mod
-* orig
-* orig_biao
-* orig_ke
-* rest
-* star
+### type="add"
 
-### type="orig"
-
-底本校勘註
-
-例 T01n0001.xml, p. 1a02
+CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 
 ```xml
-<note n="0001001" resp="Taisho" type="orig" place="foot text">此序依宋元明三本ニ依テ載ス</note><head><title>長阿含經</title>序</head>
+<note n="0003a1901" resp="CBETA.maha" type="add">
+  本頁校勘欄有校勘條目[02]，但內文出現兩處註標[02]，故此處內文註標改以[02A]表示。
+</note>
 ```
 
-### type="orig_biao"
+### type="authorial"
 
-例 X19n0347.xml, p. 561b24
-
-```xml
-<note n="0561b15" resp="Xuzangjing" place="foot text" type="orig_biao">法身大士身心無倦聲聞結業者心雖樂法身有疲厭或發息止想而淨名懸得其心故床坐獨寢旨現于此矣因舍利弗何坐之問而發之</note>
-```
-
-### type="orig_ke"
-
-例 X19n0343.xml, p. 161b13
+例 Y36n0034.xml, p. 518a13
 
 ```xml
-<note n="0161k01" resp="Xuzangjing" place="foot text" type="orig_ke">四列名</note>
+《俱舍論<note type="authorial">（光）</note>記》
 ```
 
 ### type="equivalent"
@@ -163,6 +141,32 @@ type 屬性可能有這些：
 </byline>
 ```
 
+### type="orig"
+
+底本校勘註
+
+例 T01n0001.xml, p. 1a02
+
+```xml
+<note n="0001001" resp="Taisho" type="orig" place="foot text">此序依宋元明三本ニ依テ載ス</note><head><title>長阿含經</title>序</head>
+```
+
+### type="orig_biao"
+
+例 X19n0347.xml, p. 561b24
+
+```xml
+<note n="0561b15" resp="Xuzangjing" place="foot text" type="orig_biao">法身大士身心無倦聲聞結業者心雖樂法身有疲厭或發息止想而淨名懸得其心故床坐獨寢旨現于此矣因舍利弗何坐之問而發之</note>
+```
+
+### type="orig_ke"
+
+例 X19n0343.xml, p. 161b13
+
+```xml
+<note n="0161k01" resp="Xuzangjing" place="foot text" type="orig_ke">四列名</note>
+```
+
 ### type="rest"
 
 校勘註不能轉為 app 標記的部份，以 &lt;note type="rest"> 記錄。
@@ -177,16 +181,6 @@ type 屬性可能有這些：
   <rdg resp="Taisho" wit="【明】"><space quantity="0"/></rdg>
 </app>
 <note n="0578006" place="foot" type="rest">品末題在卷末題前行【宋】【元】【明】</note>穢品第三竟
-```
-
-### type="add"
-
-CBETA 新增的校註，例 T27n1545.xml, p. 3a19
-
-```xml
-<note n="0003a1901" resp="CBETA.maha" type="add">
-  本頁校勘欄有校勘條目[02]，但內文出現兩處註標[02]，故此處內文註標改以[02A]表示。
-</note>
 ```
 
 ## @subtype
