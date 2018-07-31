@@ -49,3 +49,15 @@
   <cb:t xml:lang="zh-Hant">
 <lb n="0089c24" ed="T"/>惡</cb:t></cb:tt>真言。
 ```
+
+## @rend="normal"
+
+不做多行對照，正常顯示。例 T54n2133A.xml, p. 1194c17
+
+```xml
+<cb:tt rend="normal">
+  <cb:t xml:lang="sa-Sidd"><g ref="#SD-CBA7"/>...</cb:t>
+  <lb n="1194c18" ed="T"/><cb:t xml:lang="zh-Hant">作　阿闍梨多　聞　三藏　法師　勝</cb:t>
+  <lb n="1194c19" ed="T"/><cb:t xml:lang="san-tr">Kṛtir Ācārya-bahu-śruta-tripiṭa [ka] bhadanta-param:</cb:t>
+</cb:tt>
+```
