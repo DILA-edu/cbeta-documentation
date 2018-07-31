@@ -81,6 +81,14 @@ T01n0001.xml, p. 30a17
 <note place="inline">丹本注云問中應有何等時出家諸本並闕</note>
 ```
 
+### place="inline2"
+
+例 Y35n0033_p0374a12
+
+```xml
+1外道<note place="inline2">四月別住</note>
+```
+
 ### place=" interlinear"
 
 行間註解
