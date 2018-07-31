@@ -11,3 +11,8 @@ J26nB182, p. 481a20
 ```xml
 <unclear cert="medium" reason="damage">當</unclear>
 ```
+
+cert 屬性可能值：
+
+* medium
+* low
