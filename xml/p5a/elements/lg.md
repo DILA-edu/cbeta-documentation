@@ -22,12 +22,14 @@
 <lb n="0125c05" ed="T"/><l>何處聞正法</l><l>而不憂念子</l></lg>
 ```
 
-## type="normal"
+## @type
+
+### type="normal"
 
 每行的第一個 `<l>` 前面空一格，之後的 `<l>` 前面空二格。
 如果 `<l>` 有指定 rend 屬性，則依 rend 內容。
 
-## type="abnormal" 不規則偈頌
+### type="abnormal" 不規則偈頌
 
 `<l>` 預設不空格，除非有 rend 的設定，就依 rend。
 
@@ -49,6 +51,16 @@ XML:
 <lb n="1267b12" ed="T"/>比不思議</l><l rend="text-indent:1em">是故今敬禮</l><l rend="text-indent:1em">如來色無盡</l><l rend="text-indent:1em">智
 <lb n="1267b13" ed="T"/>慧亦復然</l><l rend="text-indent:1em">一切法常住</l><l rend="text-indent:1em">是故歸依敬禮常
 <lb n="1267b14" ed="T"/>住三寶</l></lg>
+```
+
+### type="note1" 夾註偈頌
+
+例 X09n0243_p0343b16
+
+```xml
+<lg xml:id="lgX09p0343b1601" type="note1">
+  <l>種子生佛法</l><l>良田長白法</l><l>大地持世間</l>...
+</lg>
 ```
 
 ## l 的 parent 不是 lg
