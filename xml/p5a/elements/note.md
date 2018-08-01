@@ -167,6 +167,14 @@ CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 <note n="0561b15" resp="Xuzangjing" place="foot text" type="orig_biao">法身大士身心無倦聲聞結業者心雖樂法身有疲厭或發息止想而淨名懸得其心故床坐獨寢旨現于此矣因舍利弗何坐之問而發之</note>
 ```
 
+### type="orig_jie"
+
+例 X10n0252_p0180c11
+
+```xml
+<note n="0180j01" resp="Xuzangjing" place="foot text" type="orig_jie">四請修方便也</note>
+```
+
 ### type="orig_ke"
 
 例 X19n0343.xml, p. 161b13
