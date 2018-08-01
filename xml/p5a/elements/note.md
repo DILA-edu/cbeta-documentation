@@ -191,6 +191,17 @@ CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 <note n="0578006" place="foot" type="rest">品末題在卷末題前行【宋】【元】【明】</note>穢品第三竟
 ```
 
+### type="star"
+
+例 N19n0007_p0211a04
+
+```xml
+於語行惡行<note n="0211020" resp="NanChuan" place="foot text" type="orig">
+  底本將（行惡行已）之一句，以略符表示，卻不見其要，故今即不從此。以下附[＊]者亦然。
+</note>已...(中略)...
+於語行<note type="star" corresp="#0211020"/>惡行
+```
+
 ## @subtype
 
 ### subtype="shift" 位移
