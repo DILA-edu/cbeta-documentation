@@ -19,3 +19,11 @@
 ```xml
 <ref target="../T30/T30n1579.xml#xpath2(//0279a03)">論本卷第一</ref>
 ```
+
+## 參照 PTS
+
+例 N01n0001_p0001a01
+
+```xml
+<ref target="PTS.Vin.3.1"/>律藏　　經分別（Sutta-Vibhaṅga）
+```
