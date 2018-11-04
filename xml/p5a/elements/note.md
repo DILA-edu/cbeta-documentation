@@ -212,6 +212,30 @@ CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 
 ## @subtype
 
+### subtype="biao" 標
+
+例 X10n0262
+
+```xml
+<note n="0600b01" resp="Xuzangjing" place="foot text" type="orig" subtype="biao">文殊問次</note>
+```
+
+### subtype="jie" 解
+
+例 X10n0252_p0180c11
+
+```xml
+<note n="0180j01" resp="Xuzangjing" place="foot text" type="orig" subtype="jie">四請修方便也</note>
+```
+
+### subtype="ke" 科
+
+例 X13n0287
+
+```xml
+<note n="0524k01" resp="Xuzangjing" place="foot text" type="orig" subtype="ke">第一序分初證信序</note>
+```
+
 ### subtype="shift" 位移
 
 CBETA 校註說明這裡的修訂是文字的移動，例 X10n0262
