@@ -30,12 +30,12 @@
 </cb:tt>
 ```
 
-## @rend="inline"
+## @place="inline"
 
 行中悉漢對照。例 T19n0939.xml, p. 89c23
 
 ```xml
-次從心想出<cb:tt rend="inline">
+次從心想出<cb:tt place="inline">
   <cb:t xml:lang="sa-Sidd"><g ref="#SD-E17C"/></cb:t>
   <cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>吽</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t>
 </cb:tt><cb:tt rend="inline">
