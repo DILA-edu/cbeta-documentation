@@ -79,4 +79,13 @@
 </p>
 ```
 
+### type="tr"
 
+這也是雙行對照，例 T20n1168B
+
+```xml
+<cb:tt type="tr">
+  <cb:t xml:lang="zh-Hant">如</cb:t>
+  <cb:t xml:lang="sa-Sidd"><g ref="#SD-CFCF"/></cb:t>
+</cb:tt>
+```
