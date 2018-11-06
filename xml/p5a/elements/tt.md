@@ -2,19 +2,6 @@
 
 雙語對照。這是 CBETA 自訂標記，TEI 無此元素。
 
-## @type="app"
-
-校勘欄提供的巴利文對照，例 T01n0026.xml：
-
-```xml
-<cb:tt n="0635002" type="app">
-  <cb:t resp="CBETA" xml:lang="zh">揵沓惒</cb:t>
-  <cb:t resp="Taisho" xml:lang="pi" place="foot">Gandhabha.</cb:t>
-</cb:tt>
-```
-
-上例中 t 元素的 place 屬性值為 foot 表示文字出現在校勘欄中。
-
 ## 悉漢雙行對照
 
 例 T54n2133A, p. 1190a22
@@ -61,3 +48,35 @@
   <lb n="1194c19" ed="T"/><cb:t xml:lang="san-tr">Kṛtir Ācārya-bahu-śruta-tripiṭa [ka] bhadanta-param:</cb:t>
 </cb:tt>
 ```
+
+## @type
+### type="app"
+
+校勘欄提供的巴利文對照，例 T01n0026.xml：
+
+```xml
+<cb:tt n="0635002" type="app">
+  <cb:t resp="CBETA" xml:lang="zh">揵沓惒</cb:t>
+  <cb:t resp="Taisho" xml:lang="pi" place="foot">Gandhabha.</cb:t>
+</cb:tt>
+```
+
+上例中 t 元素的 place 屬性值為 foot 表示文字出現在校勘欄中。
+
+### type="single-line"
+
+每個 t 都是一行，例 T54n2133A
+
+```xml
+<lb n="1194c17" ed="T"/>
+<p xml:id="pT54p1194c1701">
+  <cb:tt type="single-line">
+    <cb:t xml:lang="sa-Sidd"><g ref="#SD-CBA7"/>...<g ref="#SD-A5B5"/></cb:t>
+    <lb n="1194c18" ed="T"/><cb:t xml:lang="zh-Hant">作　阿闍梨多　聞　三藏　法師　勝</cb:t>
+    <lb n="1194c19" ed="T"/><cb:t xml:lang="san-tr">Kṛtir Ācārya-bahu-śruta-tripiṭa [ka] bhadanta-param:</cb:t>
+  </cb:tt>
+  ...
+</p>
+```
+
+
