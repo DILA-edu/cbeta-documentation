@@ -65,7 +65,7 @@ XML:
 
 ### type="note2"
 
-例 X18n0332
+雙行小字偈頌，例 X18n0332
 
 ```xml
 <lg type="note2">
