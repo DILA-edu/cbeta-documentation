@@ -57,15 +57,21 @@ XML:
 
 例 X09n0243_p0343b16
 
+![images/lg-note1.png]
+
 ```xml
-<lg xml:id="lgX09p0343b1601" type="note1">
-  <l>種子生佛法</l><l>良田長白法</l><l>大地持世間</l>...
+<lg type="note1">
+  <l>種子生佛法</l><l>良田長白法</l><l>大地持世間</l>
+  ...
 </lg>
 ```
+
 
 ### type="note2"
 
 雙行小字偈頌，例 X18n0332
+
+![images/lg-note1.png]
 
 ```xml
 <lg type="note2">
