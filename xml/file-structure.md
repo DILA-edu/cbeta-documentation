@@ -17,7 +17,7 @@
 ## 典籍跨冊
 
 一部典籍通常是一個 XML 檔，但跨多冊時例外。
-詳見 work-multi-vol.md
+詳見 [work-multi-vol.md](work-multi-vol.md)
 
 ## 典籍編號（經號）
 
