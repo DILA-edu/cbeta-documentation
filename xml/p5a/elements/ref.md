@@ -32,3 +32,35 @@
 <ref target="../T30/T30n1579.xml#xpath2(//0279a03)">論本卷第一</ref>
 ```
 
+## @type
+
+### @type='taisho'
+
+印順法師著作，連結到大正藏的某一欄，例 Y20n0020.xml, p. 65a03
+
+```xml
+（大正<ref type="taisho" target="vol:51;page:p185b">五一．一八五中</ref>——下）
+```
+### @type='taixu'
+
+連結到太虛大師全書，例 Y02n0002.xml, p. 103a03
+
+```xml
+<ref type="taixu" target="vol:25;page:p98-99">(ref taixu::vol:25;page:p98-99)</ref>
+```
+
+### @type='wxzj'
+
+連結卍續藏，例 Y37n0035.xml, p. 86a03
+
+```xml
+（續<ref type="wxzj" target="vol:21;page:p291c">三四．四一二上（卍新續二十一．二九一下）</ref>）
+```
+
+### @type='yinshun'
+
+例 Y02n0002.xml, p. 114a12
+
+```xml
+<ref type="yinshun" target="vol:33;page:p217-218">(ref yinshun::vol:33;page:p217-218)</ref>
+```
