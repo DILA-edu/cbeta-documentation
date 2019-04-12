@@ -15,3 +15,13 @@
   ...
 </table>
 ```
+
+## style
+
+例 Y40n0038.xml, p. 116a14
+
+```xml
+<table cols="3" style="margin-left:3em">
+  ...
+</table>
+```
