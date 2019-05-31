@@ -15,3 +15,9 @@
   ...
 </table>
 ```
+
+## @style
+例 Y40n0038.xml, p. 116a14
+```xml
+<cell style="border-bottom:none">...</cell>
+```
