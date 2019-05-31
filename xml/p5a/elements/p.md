@@ -4,7 +4,15 @@
 
 參考：[TEI p 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-p.html)
 
-## rend="inline"
+## @rend
+
+### rend="bold"
+例 Y01n0001.xml
+```xml
+<p rend="bold">須菩提！當來之世，若有善...</p>
+```
+
+### rend="inline"
 
 底本未分段，CBETA 加上的分段，例 T11n0310.xml, p. 323a12
 
@@ -16,15 +24,23 @@
 <lb n="0323a16" ed="T"/>成就。</p>
 ```
 
-## rend 屬性放 CSS
+### rend="kaiti"
+例 Y14n0014.xml
+```xml
+<p rend="kaiti">民國五十二年的春天，我曾應臺南佛教會的邀請，作了七天的講演。...</p>
+```
+
+## @style
 
 X79n1559.xml, p. 450a10
 
 ```xml
-<p rend="margin-left:1em;text-indent:-1em">...</p>
+<p style="margin-left:1em;text-indent:-1em">舉。巴陵示眾。...</p>
 ```
 
-## type="dharani" 咒語
+## @type
+
+### type="dharani" 咒語
 
 T12n0375.xml, p. 609c04
 
@@ -32,7 +48,7 @@ T12n0375.xml, p. 609c04
 <p cb:type="dharani">「『侘枳　咤咤羅侘枳　盧呵隷摩訶盧呵隸阿羅　遮羅　多羅　莎呵』</p>
 ```
 
-## type="pre"
+### type="pre"
 
 按原書換行
 
