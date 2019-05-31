@@ -17,3 +17,9 @@
 ```xml
 <seg rend="border">懸論</seg>
 ```
+
+### kaiti
+例 Y44n0042.xml, p. 320a09
+```xml
+<seg rend="kaiti"><title level="m">《大乘廣五蘊論講記》</title>紙本之出版...</seg>
+```
