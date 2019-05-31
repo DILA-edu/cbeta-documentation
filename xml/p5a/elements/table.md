@@ -16,7 +16,13 @@
 </table>
 ```
 
-## style
+## @rend
+例 X29n0597.xml, p. 536c18
+```xml
+<table rend="no-border">...</table>
+```
+
+## @style
 
 例 Y40n0038.xml, p. 116a14
 
