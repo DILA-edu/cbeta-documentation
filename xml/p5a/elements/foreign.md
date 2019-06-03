@@ -15,3 +15,13 @@ Y39n0037.xml, p. 106a09
 ```xml
 曇無讖（<foreign xml:lang="sa">Dharmarakṣa</foreign>）所譯
 ```
+
+## @rend
+
+### italic
+
+ex: Y34n0032.xml, p. 63a05
+
+```xml
+<foreign rend="italic" xml:lang="sa">mahāvastu</foreign>
+```
