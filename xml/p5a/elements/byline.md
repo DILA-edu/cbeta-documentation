@@ -2,7 +2,26 @@
 
 包含作品的主要責任陳述，出現在題名頁或作品開頭或結尾處。
 
-## type="Author"
+## @rend
+
+### bold
+
+ex: Y01n0001.xml, p. 1a02
+
+```xml
+<byline rend="bold">——民國三十一年春講於四川法王學院——</byline>
+```
+### kaiti 楷體
+
+ex: Y30n0030.xml, p. a001a01
+
+```xml
+<byline cb:type="author" rend="kaiti">印順</byline>
+```
+
+## @type
+
+### type="Author"
 
 例 T01n0001.xml
 
@@ -10,7 +29,7 @@
 <byline cb:type="Author">長安釋僧肇述</byline>
 ```
 
-## type="Collector"
+### type="Collector"
 
 例 T04n0207.xml, p. 522b18
 
@@ -18,7 +37,7 @@
 <byline cb:type="Collector">比丘道略集</byline>
 ```
 
-## type="Editor"
+### type="Editor"
 
 例 X81n1571.xml, p. 402c05
 
@@ -26,7 +45,7 @@
 <byline cb:type="Editor">京都聖感禪寺住持(臣)僧　(超永)　編輯</byline>
 ```
 
-## type="Translator"
+### type="Translator"
 
 T12n0389.xml, p. 1110c15
 
@@ -34,7 +53,7 @@ T12n0389.xml, p. 1110c15
 <byline cb:type="Translator">後秦龜茲國三藏鳩摩羅什奉　詔譯</byline>
 ```
 
-## type="較閱"
+### type="較閱"
 
 例 X81n1571.xml, p. 402c06
 
