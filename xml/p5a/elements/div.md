@@ -2,7 +2,25 @@
 
 參考：[TEI div 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-div.html)
 
-## 原文 type="orig" 與 解釋 type="commentary"
+## @rend
+
+### kaiti 楷體
+
+ex: Y30n0030.xml, p. 1a05
+
+```xml
+<cb:div type="other" rend="kaiti">
+  <cb:mulu level="3" type="其他">概述</cb:mulu>
+  <p style="text-indent:2em">
+    <note n="0001004" resp="釋印順" type="orig">凡正楷字是<title level="m">《論》</title>文。</note>
+    事契經者，謂四阿笈摩：一者、雜阿笈摩，二者、中阿笈摩，三者、長阿笈摩，四者、增一阿笈摩。...
+  </p>...
+</cd:div>
+```
+
+## @type
+
+### 原文 type="orig" 與 解釋 type="commentary"
 
 例如 B25n1045.xml, p. 725b20
 
@@ -15,7 +33,7 @@
 </cb:div>
 ```
 
-## type="fen"
+### type="fen"
 
 例 T01n0001.xml, p. 114b07
 
@@ -26,7 +44,7 @@
 </cb:div>
 ```
 
-## type="hui"
+### type="hui"
 
 例 T36n1742, p. 1053a28
 
@@ -38,7 +56,7 @@
 </cb:div>
 ```
 
-## type="jing"
+### type="jing"
 
 例 T01n0001.xml, p. 109c22
 
@@ -50,7 +68,7 @@
 </cb:div>
 ```
 
-## type="other"
+### type="other"
 
 例 X78n1553.xml, p. 420a11
 
@@ -62,7 +80,7 @@
 </cb:div>
 ```
 
-## type="pin"
+### type="pin"
 
 例 T01n0001.xml, p. 114b07
 
@@ -74,7 +92,7 @@
 </cb:div>
 ```
 
-## 附文 type='w'
+### 附文 type='w'
 
 例 T85n2869, p. 1335c04
 
@@ -89,7 +107,7 @@
 <lb n="1335c11" ed="T"/>皆悉成就。俱修梵行。同登種覺。</p></cb:div>
 ```
 
-## type="xu" 序
+### type="xu" 序
 
 例 X81n1570.xml, p. 327a19
 
