@@ -1,5 +1,7 @@
 # formula
 
+參考 TEI [&lt;formula>](https://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-formula.html) 包含數學或其他方程式。
+
 例 B08n0026, p. 164b26
 
 ```xml
