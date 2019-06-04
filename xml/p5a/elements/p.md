@@ -6,13 +6,13 @@
 
 ## @rend
 
-### rend="bold"
+### bold
 例 Y01n0001.xml
 ```xml
 <p rend="bold">須菩提！當來之世，若有善...</p>
 ```
 
-### rend="inline"
+### inline
 
 底本未分段，CBETA 加上的分段，例 T11n0310.xml, p. 323a12
 
@@ -24,12 +24,19 @@
 <lb n="0323a16" ed="T"/>成就。</p>
 ```
 
-### rend="kaiti"
+### kaiti 楷體
 例 Y14n0014.xml
 ```xml
 <p rend="kaiti">民國五十二年的春天，我曾應臺南佛教會的邀請，作了七天的講演。...</p>
 ```
 
+### 多值
+ex: Y25n0025.xml, p. 413a02
+```xml
+<p cb:type="head2" rend="kaiti bold">
+  六祖慧能大師於韶州大梵寺施法壇經一卷
+</p>
+```
 ## @style
 
 X79n1559.xml, p. 450a10
