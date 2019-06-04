@@ -17,6 +17,20 @@
 ```
 
 ## @rend
+
+### kaiti 楷體
+
+ex: Y27n0027.xml, p. 123a06
+
+```xml
+<table cols="6" style="margin-left:3em" rend="kaiti">
+  <row>...</row>
+  ...
+</table>
+
+```
+### no-border
+
 例 X29n0597.xml, p. 536c18
 ```xml
 <table rend="no-border">...</table>
