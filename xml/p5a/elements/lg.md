@@ -13,13 +13,59 @@
 </lg>
 ```
 
-## place="inline"
+## @place
+
+### inline
 
 偈頌不是從行首開始，例 T53n2121.xml
 
 ```xml
 <lb n="0125c04" ed="T"/><p>夫言。</p><lg cb:place="inline"><l>是法未曾聞</l><l>而今聞汝說</l>
 <lb n="0125c05" ed="T"/><l>何處聞正法</l><l>而不憂念子</l></lg>
+```
+## @rend
+
+### bold
+
+ex: Y07n0007.xml, p. 23a09
+
+```xml
+<lg type="abnormal" rend="bold">
+  <l>
+    歸命盡十方：最勝業遍知，色無礙自在，救世大悲者；
+    及彼身體相，法性真如海，無量功德藏；如實修行等。
+  </l>
+</lg>
+```
+
+### kaiti 楷體
+
+ex: Y25n0025.xml, p. 478a11
+
+```xml
+<lg style="margin-left:3em" type="abnormal" rend="kaiti">
+  <l>吾來大唐國，　傳教救迷情，　一花開五葉，　結菓自然成。</l>
+</lg>
+```
+
+### mingti 明體
+
+ex: Y25n0025.xml, p. 417a06
+
+```xml
+<lg rend="mingti" style="margin-left:3em">
+  <l>身是菩提樹，　心如明鏡臺，　時時勤拂拭，　莫使有塵埃！</l>
+</lg>
+```
+
+## @style
+
+ex: GA045n0049.xml, p. 236a10
+
+```xml
+<lg type="abnormal" cb:place="inline" style="text-indent:2em">
+  <l>一聲吼破太虛空　爍爍禪光橫大有</l>
+</lg>
 ```
 
 ## @type
