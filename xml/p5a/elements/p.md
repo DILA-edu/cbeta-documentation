@@ -55,6 +55,49 @@ T12n0375.xml, p. 609c04
 <p cb:type="dharani">「『侘枳　咤咤羅侘枳　盧呵隷摩訶盧呵隸阿羅　遮羅　多羅　莎呵』</p>
 ```
 
+### type="head1"
+
+ex: B03n0002.xml, p. 30a04
+
+```xml
+<p cb:type="head1" xml:id="pB03p0030a0401">世主妙嚴品第一</p>
+```
+### type="head2"
+
+ex: B01n0001.xml, p. 4a07
+
+```xml
+<p cb:type="head2"><note place="inline">1</note>生年的問題</p>
+```
+
+### type="head3"
+
+ex: B08n0026.xml, p. 189b24
+
+```xml
+<p cb:type="head3">波逸提戒相頌　178條</p>
+```
+
+### type="head4"
+
+ex: B02n0001.xml, p. 607a10
+
+```xml
+<p cb:type="head4">禮敬諸佛歌</p>
+```
+
+### type="head5"
+ex: B08n0026.xml, p. 28a21
+```xml
+<p cb:type="head5">預白</p>
+```
+
+### type="head6"
+ex: C056n1163.xml, p. 837c23
+```xml
+<p cb:type="head6">舌根聲<note place="inline">凡五字中第四字與第三字同而輕重微異</note></p>
+```
+
 ### type="pre"
 
 按原書換行
