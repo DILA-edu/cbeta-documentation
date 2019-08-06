@@ -28,6 +28,27 @@ XML
 
 ## @type
 
+### star
+
+大正藏將重複的校勘以星號＊表示同上，
+CBETA 使用 `<app type="star">` 標示。
+	
+ex: T11n0310.xml
+
+```xml
+<note n="0020009" resp="Taisho" type="orig" place="foot text">惟＝唯【宮】＊</note>
+<note n="0020009" resp="CBETA" type="mod">惟【大】＊，唯【宮】＊</note>
+<app n="0020009">
+  <lem wit="【大】">惟</lem>
+  <rdg resp="Taisho" wit="【宮】">唯</rdg>
+</app>願開示如是法門
+...(中略)...
+<app type="star" corresp="#0020009">
+  <lem wit="【大】">惟</lem>
+  <rdg resp="Taisho" wit="【宮】">唯</rdg>
+</app>願大慈威加守護
+```
+
 ### star_removed
 
 type="star_removed" 表示底本有個星號「＊」校勘，CBETA 修訂拿掉這個「＊」校勘。
