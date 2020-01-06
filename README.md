@@ -39,3 +39,11 @@ T X A K S F C D U P J L G M N ZS I ZW B GA GB
 CBETA 網站對於 [卍續藏三種版本及其對照說明](http://www.cbeta.org/data-format/zrx.htm#zrx)
 
 CBETA 在 Github 上的 [卍續藏X2R行號對照表](https://github.com/cbeta-git/cbwork-common-X2R)
+
+# 插圖
+
+https://github.com/cbeta-git/CBR2X-figures
+
+# 缺字圖檔
+
+https://github.com/cbeta-org/gaiji-CB
