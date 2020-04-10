@@ -47,3 +47,7 @@ https://github.com/cbeta-git/CBR2X-figures
 # 缺字圖檔
 
 https://github.com/cbeta-org/gaiji-CB
+
+# 電子書封面
+
+https://github.com/cbeta-org/ebook-covers
