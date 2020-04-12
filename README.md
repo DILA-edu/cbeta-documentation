@@ -46,7 +46,9 @@ https://github.com/cbeta-git/CBR2X-figures
 
 # 缺字圖檔
 
-https://github.com/cbeta-org/gaiji-CB
+* 漢字 https://github.com/cbeta-org/gaiji-CB
+* 悉曇字 https://github.com/cbeta-org/sd-gif
+* 蘭札體 https://github.com/cbeta-org/rj-gif
 
 # 電子書封面
 
