@@ -1,5 +1,27 @@
 # t
 
+## @place
+
+### place="foot"
+
+ex: T08n0235.xml
+
+```xml
+<cb:tt n="0749002" type="app">
+  <cb:t xml:lang="zh-Hant" resp="Taisho">樂阿蘭那行者</cb:t>
+  <cb:t place="foot" resp="Taisho" xml:lang="sa">Araṇāvihārin.</cb:t>
+</cb:tt>
+```
+
+### place="inline"
+
+```xml
+<cb:tt place="inline">
+  <cb:t xml:lang="sa-Sidd"><g ref="#SD-A5A9"/></cb:t>
+  <cb:t xml:lang="zh-Hant">曩</cb:t>
+</cb:tt>
+```
+
 ## @style
 
 ex: T54n2133A.xml, p. 1191b03
