@@ -121,6 +121,29 @@ CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 《俱舍論<note type="authorial">（光）</note>記》
 ```
 
+### type="cf1", cf2, cf3
+
+note 在 lem 裡面，例如 T02n0099.xml
+
+```xml
+<app n="0003b2901">
+  <lem resp="CBETA.heaven" wit="【CB】【北藏-CB】">座<note type="cf1">P58_p0011b05</note></lem>
+  <rdg wit="【大】">坐</rdg>
+</app>
+```
+
+note 在 rdg 裡，例如：T24n1488.xml
+
+```xml
+<app n="1054c1301">
+  <lem wit="【大】">坊</lem>
+  <rdg wit="【磧-CB】" resp="CBETA.maha">坊<note type="cf1">Q14_p0038b18</note></rdg>
+  <rdg resp="CBETA.maha" wit="【麗-CB】">房<note type="cf1"/>K14n0526_p0282a05<note></rdg>
+</app>
+```
+
+`<note type="cf1">` 裡面不一定都是 K14n0526_p0282a05 這種格式，也有可能是各種文字敍述。
+
 ### type="equivalent"
 
 例 T01n0001.xml, p. 11a06
