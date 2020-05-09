@@ -117,7 +117,7 @@ XML:
 
 雙行小字偈頌，例 X18n0332
 
-![](images/lg-note1.png)
+![](images/lg-note2.png)
 
 ```xml
 <lg type="note2">
