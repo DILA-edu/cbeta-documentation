@@ -19,7 +19,8 @@ lem 的 wit 屬性值為【大】，表示《大正藏》使用「韞」字，�
 <app n="0002016">
   <lem resp="CBETA.maha" wit="【CB】">牟</lem>
   <rdg wit="【大】">無</rdg>
-  <rdg resp="Taisho" wit="【宋】【元】【明】">牟</rdg></app>尼
+  <rdg resp="Taisho" wit="【宋】【元】【明】">牟</rdg>
+</app>尼
 ```
 
 第一個 rdg 的 wit 屬性值為【大】，表示《大正藏》作「無」字；  
