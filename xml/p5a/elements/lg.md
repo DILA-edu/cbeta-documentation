@@ -120,16 +120,16 @@ ex: GA045n0049.xml, p. 236a10
 </lg>
 ```
 
-### type="note2"
+### subtype="note2"
 
 雙行小字偈頌，例 X18n0332
 
 ![](images/lg-note2.png)
 
 ```xml
-<lg type="note2">
-  <l>筆底楞伽一字無</l><l>浮雲散去月明孤</l>
-  <l>恩深欲報辭難盡</l><l>塵劫分身舌不枯</l>
+<lg type="regular" subtype="note2">
+  <l>筆底楞伽一字無<caesura/>浮雲散去月明孤</l>
+  <l>恩深欲報辭難盡<caesura/>塵劫分身舌不枯</l>
 </lg>
 ```
 
