@@ -70,48 +70,55 @@ ex: GA045n0049.xml, p. 236a10
 
 ## @type
 
-### type="normal"
-
-每行的第一個 `<l>` 前面空一格，之後的 `<l>` 前面空二格。
-如果 `<l>` 有指定 rend 屬性，則依 rend 內容。
-
-### type="abnormal" 不規則偈頌
-
-`<l>` 預設不空格，除非有 rend 的設定，就依 rend。
-
-例 T85n2829.xml, p. 1267b11, 
-
-BM:
-
-```
-T85n2829_p1267b11T##║一切普誦　如來妙色身　世間無與等　無
-T85n2829_p1267b12T##║比不思議　是故今敬禮　如來色無盡　智
-T85n2829_p1267b13T##║慧亦復然　一切法常住　是故歸依敬禮常
-T85n2829_p1267b14t##║住三寶
-```
-
-XML:
+### type="regular" 規則偈頌
 
 ```xml
-<lb n="1267b11" ed="T"/><lg type="abnormal"><l>一切普誦</l><l rend="text-indent:1em">如來妙色身</l><l rend="text-indent:1em">世間無與等</l><l rend="text-indent:1em">無
-<lb n="1267b12" ed="T"/>比不思議</l><l rend="text-indent:1em">是故今敬禮</l><l rend="text-indent:1em">如來色無盡</l><l rend="text-indent:1em">智
-<lb n="1267b13" ed="T"/>慧亦復然</l><l rend="text-indent:1em">一切法常住</l><l rend="text-indent:1em">是故歸依敬禮常
-<lb n="1267b14" ed="T"/>住三寶</l></lg>
+<lg type="regular" style="margin-left:1em;text-indent:-1em">
+  <l>「比丘集法堂，<caesura/>講說賢聖論；</l>
+  <l>如來處靜室，<caesura/>天耳盡聞知。</l>
+  ⋯⋯中略⋯⋯
+  <l>無上天人尊，<caesura/>記於過去佛。」</l>
+</lg>
 ```
 
-### type="note1" 夾註偈頌
+## @subtype
+
+### subtype="note1" 夾註偈頌
 
 例 X09n0243_p0343b16
 
 ![](images/lg-note1.png)
 
 ```xml
-<lg type="note1">
+<lg subtype="note1">
   <l>種子生佛法</l><l>良田長白法</l><l>大地持世間</l>
   ...
 </lg>
 ```
 
+### subtype="v5"
+
+例 T07n0220_p0957a11
+
+```xml
+<lg type="regular" subtype="v5" style="margin-left:1em;text-indent:-1em">
+  <l>「總持猶妙藥，<caesura/>能療眾惑病，</l>
+  <l>亦如天甘露，<caesura/>服者常安樂。」</l>
+</lg>
+```
+
+### subtype="v7"
+
+例 T07n0220_p0957b06
+
+```xml
+<lg type="regular" xml:id="lgT07p0957b0601" subtype="v7" style="margin-left:2em;text-indent:-2em">
+  <l>「『二人遠離王賊等，<caesura/>所不能侵大寶藏，</l>
+  <l>百千萬劫法難聞，<caesura/>得聞不持不施等。</l>
+  <l>大菩提心護正法，<caesura/>如教修行心寂靜，</l>
+  <l>自利利他心平等，<caesura/>是則名真供養佛。』</l>
+</lg>
+```
 
 ### type="note2"
 
@@ -143,3 +150,4 @@ l 可能不是直接被包在 lg 裡，而是在 lem 裡面，計算第幾個 l 
 	</app>
 </lg>
 ```
+
