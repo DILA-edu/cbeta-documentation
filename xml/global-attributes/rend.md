@@ -19,10 +19,13 @@ T54n2132, p. 1186b04
 二明稽首者古文為<term rend="no_nor"><g ref="#CB05129"/></term>
 ```
 
-## CSS
+## pl-1 .. pl-8
 
-例 X68n1319, p. 577c09
+例如 ZW01na003.xml, p. 27a20
 
 ```xml
-<p rend="margin-left:1em">問。念佛之心。無雜無間。即精進度。...</p>
+<cell rend="pl-2">附：文軌及其著作</cell>
 ```
+
+pl-2 對應的 CSS 是 padding-left:2em, 依此類推。
+目前 (2021-01-08) 只有出現 pl-2 和 pl-4 這二種，CBReader 支援 pl-1 至 pl-8 八種。
