@@ -1,4 +1,4 @@
-# dialog 對話
+# dialog 對話、問答
 
 例 X03n0218.xml
 
