@@ -5,6 +5,7 @@
 參考：[TEI p 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-p.html)
 
 * [rend 屬性](#rend)
+* [style 屬性](#style)
 * [type 屬性](#type)
 
 ## rend
@@ -51,9 +52,9 @@ ex: Y25n0025.xml, p. 413a02
 </p>
 ```
 
-## @style
+## style
 
-X79n1559.xml, p. 450a10
+style 的屬性值直接填 CSS 語法。例：X79n1559.xml, p. 450a10
 
 ```xml
 <p style="margin-left:1em;text-indent:-1em">舉。巴陵示眾。...</p>
