@@ -2,6 +2,35 @@
 
 參考：[TEI note 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-note.html)
 
+* [大正藏校勘原文](#大正藏校勘原文)
+* [經 CBETA 修訂的校勘文字標記](#經-cbeta-修訂的校勘文字標記)
+* [place 屬性](#place-屬性)
+  * [foot](#foot)
+  * [inline](#inline)
+  * [inline2](#inline2)
+  * [interlinear](#interlinear)
+* [type](#type)
+  * [add](#add)
+  * [authorial](#authorial)
+  * [cf1, cf2, cf3](#cf1-cf2-cf3)
+  * [equivalent](#equivalent)
+  * [mod](#mod)
+  * [orig](#orig)
+  * [rest](#rest)
+  * [star](#star)
+* [subtype](#subtype)
+  * [biao 標](#biao-標)
+  * [jie 解](#jie-解)
+  * [ke 科](#ke-科)
+  * [shift 位移](#shift-位移)
+  * [規範字詞](#規範字詞)
+* [校勘編號 n](#校勘編號-n)
+  * [編號以頁為單位](#編號以頁為單位)
+  * [一條校勘拆成兩個 note](#一條校勘拆成兩個-note)
+  * [編號為 0](#編號為-0)
+  * [編號以行為單位](#編號以行為單位)
+* [note 夾在 l 之間](#note-夾在-l-之間)
+
 ## 大正藏校勘原文
 
 大正藏校勘原文以 `<note type="orig">` 記錄
@@ -55,9 +84,9 @@ XML 標記
 
 resp="CBETA" 表示是由 CBETA 所作修訂. (resp means responsibility)
 
-## @place
+## place 屬性
 
-### place="foot"
+### foot
 
 通常底本頁尾註的標記是：
 
@@ -71,7 +100,7 @@ resp="CBETA" 表示是由 CBETA 所作修訂. (resp means responsibility)
 <note place="foot" type="orig">⋯⋯</note>
 ```
 
-### place="inline"
+### inline
 
 行中夾註
 
@@ -94,7 +123,7 @@ T01n0001.xml, p. 30a17
 </note>
 ```
 
-### place="inline2"
+### inline2
 
 例 Y35n0033_p0374a12
 
@@ -102,7 +131,7 @@ T01n0001.xml, p. 30a17
 1外道<note place="inline2">四月別住</note>
 ```
 
-### place=" interlinear"
+### interlinear
 
 行間註解
 
@@ -112,11 +141,11 @@ T01n0001.xml, p. 30a17
 如來我若欲見隨意即見<note place="interlinear">以下正明欲見即見之故</note>我能了知如來國土莊嚴
 ```
 
-## @type
+## type
 
 type 屬性可能的值：add, authorial, cf1, cf2, cf3, equivalent, foot, inline, mod, orig, orig_biao, orig_ke, rest, star
 
-### type="add"
+### add
 
 CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 
@@ -126,7 +155,7 @@ CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 </note>
 ```
 
-### type="authorial"
+### authorial
 
 例 Y36n0034.xml, p. 518a13
 
@@ -134,7 +163,7 @@ CBETA 新增的校註，例 T27n1545.xml, p. 3a19
 《俱舍論<note type="authorial">（光）</note>記》
 ```
 
-### type="cf1", cf2, cf3
+### cf1, cf2, cf3
 
 note 在 lem 裡面，例如 T02n0099.xml
 
@@ -157,7 +186,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 
 `<note type="cf1">` 裡面不一定都是 K14n0526_p0282a05 這種格式，也有可能是各種文字敍述。
 
-### type="equivalent"
+### equivalent
 
 例 T01n0001.xml, p. 11a06
 
@@ -168,7 +197,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 
 上面的「D.」表示「長部」，請參考 CBETA [巴利語書名略號](http://www.cbeta.org/format/pali.php)。
 
-### type="mod"
+### mod
 
 經過 CBETA 修訂的校勘註
 
@@ -185,7 +214,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 </byline>
 ```
 
-### type="orig"
+### orig
 
 底本校勘註
 
@@ -195,7 +224,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 <note n="0001001" resp="Taisho" type="orig" place="foot text">此序依宋元明三本ニ依テ載ス</note><head><title>長阿含經</title>序</head>
 ```
 
-### type="rest"
+### rest
 
 校勘註不能轉為 app 標記的部份，以 &lt;note type="rest"> 記錄。
 
@@ -211,7 +240,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 <note n="0578006" place="foot" type="rest">品末題在卷末題前行【宋】【元】【明】</note>穢品第三竟
 ```
 
-### type="star"
+### star
 
 例 N19n0007_p0211a04
 
@@ -222,9 +251,9 @@ note 在 rdg 裡，例如：T24n1488.xml
 於語行<note type="star" corresp="#0211020"/>惡行
 ```
 
-## @subtype
+## subtype
 
-### subtype="biao" 標
+### biao 標
 
 例 X10n0262
 
@@ -232,7 +261,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 <note n="0600b01" resp="Xuzangjing" place="foot text" type="orig" subtype="biao">文殊問次</note>
 ```
 
-### subtype="jie" 解
+### jie 解
 
 例 X10n0252_p0180c11
 
@@ -240,7 +269,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 <note n="0180j01" resp="Xuzangjing" place="foot text" type="orig" subtype="jie">四請修方便也</note>
 ```
 
-### subtype="ke" 科
+### ke 科
 
 例 X13n0287
 
@@ -248,7 +277,7 @@ note 在 rdg 裡，例如：T24n1488.xml
 <note n="0524k01" resp="Xuzangjing" place="foot text" type="orig" subtype="ke">第一序分初證信序</note>
 ```
 
-### subtype="shift" 位移
+### shift 位移
 
 CBETA 校註說明這裡的修訂是文字的移動，例 X10n0262
 
@@ -268,7 +297,7 @@ CBETA 校註說明這裡的修訂是文字的移動，例 X10n0262
 </app>
 ```
 	
-### subtype="規範字詞"
+### 規範字詞
 
 CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印順法師佛學著作集》Y01n0001.xml
 
@@ -281,7 +310,7 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 </app>受大乘佛法。什公一面翻譯，一面講學。所翻的大乘經論很多，
 ```
 
-## 校勘編號 @n
+## 校勘編號 n
 
 ### 編號以頁為單位
 
