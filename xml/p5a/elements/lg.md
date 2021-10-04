@@ -7,9 +7,9 @@
 例如 T02n0125.xml 《增壹阿含經》
 
 ```xml
-<lg>
-  <l>「諸惡莫作，</l><l>諸善奉行，</l>
-  <l>自淨其意，</l><l>是諸佛教。</l>
+<lg type="regular">
+  <l>「諸惡莫作，<caesura/>諸善奉行，<caesura/>自淨其意，</l>
+  <l>是諸佛教。</l>
 </lg>
 ```
 
@@ -20,8 +20,8 @@
 偈頌不是從行首開始，例 T53n2121.xml
 
 ```xml
-<lb n="0125c04" ed="T"/><p>夫言。</p><lg cb:place="inline"><l>是法未曾聞</l><l>而今聞汝說</l>
-<lb n="0125c05" ed="T"/><l>何處聞正法</l><l>而不憂念子</l></lg>
+<lb n="0125c04" ed="T"/><p>夫言。</p><lg type="regular" cb:place="inline"><l>是法未曾聞<caesura/>而今聞汝說</l>
+<lb n="0125c05" ed="T"/><l>何處聞正法<caesura/>而不憂念子</l></lg>
 ```
 ## @rend
 
@@ -30,11 +30,9 @@
 ex: Y07n0007.xml, p. 23a09
 
 ```xml
-<lg type="abnormal" rend="bold">
-  <l>
-    歸命盡十方：最勝業遍知，色無礙自在，救世大悲者；
-    及彼身體相，法性真如海，無量功德藏；如實修行等。
-  </l>
+<lg rend="bold">
+  <l>歸命盡十方：最勝業遍知，色無礙自在，救世大悲者；及彼身體相，法性真如海
+  ，無量功德藏；如實修行等。</l>
 </lg>
 ```
 
@@ -43,7 +41,7 @@ ex: Y07n0007.xml, p. 23a09
 ex: Y25n0025.xml, p. 478a11
 
 ```xml
-<lg style="margin-left:3em" type="abnormal" rend="kaiti">
+<lg style="margin-left:3em" rend="kaiti">
   <l>吾來大唐國，　傳教救迷情，　一花開五葉，　結菓自然成。</l>
 </lg>
 ```
@@ -53,7 +51,7 @@ ex: Y25n0025.xml, p. 478a11
 ex: Y25n0025.xml, p. 417a06
 
 ```xml
-<lg rend="mingti" style="margin-left:3em">
+<lg style="margin-left:3em" rend="mingti">
   <l>身是菩提樹，　心如明鏡臺，　時時勤拂拭，　莫使有塵埃！</l>
 </lg>
 ```
@@ -63,7 +61,7 @@ ex: Y25n0025.xml, p. 417a06
 ex: GA045n0049.xml, p. 236a10
 
 ```xml
-<lg type="abnormal" cb:place="inline" style="text-indent:2em">
+<lg cb:place="inline" style="text-indent:2em">
   <l>一聲吼破太虛空　爍爍禪光橫大有</l>
 </lg>
 ```
@@ -71,6 +69,8 @@ ex: GA045n0049.xml, p. 236a10
 ## @type
 
 ### type="regular" 規則偈頌
+
+關於「規則偈頌」的定義、範例，請參考〈[CBETA XML 2020.Q3 偈頌標記變更](https://docs.google.com/document/d/1Yv4d7HXFHj5LSJv7KvFQnzsqFqNM6pEnoSSRctw1bN8/edit#heading=h.qvlkodbhn5ob)〉。
 
 ```xml
 <lg type="regular" style="margin-left:1em;text-indent:-1em">
@@ -91,7 +91,7 @@ ex: GA045n0049.xml, p. 236a10
 
 ```xml
 <lg subtype="note1">
-  <l>種子生佛法</l><l>良田長白法</l><l>大地持世間</l>
+  <l>種子生佛法<caesura/>良田長白法<caesura/>大地持世間</l>
   ...
 </lg>
 ```
