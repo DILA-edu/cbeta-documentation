@@ -8,7 +8,7 @@
 
 大正藏校勘欄有註記這地方可能是個錯字，但是大正藏未予更正。
 
-例：T44n1480.xml, p. 137c27
+例：T44n1840.xml, p. 137c27
 
 ```xml
 <note n="0137011" resp="Taisho" place="foot text" type="orig">狹＝挾？</note>
