@@ -2,6 +2,10 @@
 
 參考 [TEI rdg 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-rdg.html)
 
+* [correctionRemark](#typecorrectionremark-考偽)
+* [variantRemark](#typevariantremark-校異)
+* [cbetaRemark](#typecbetaremark)
+
 ## type=="correctionRemark" (考偽)
 
 ### 大正藏 考偽
@@ -83,3 +87,16 @@ T21n1203.xml, lb=0028a03
 【大】 | 界
 ----- | ----
 【丙】ィ | 義
+
+## type=="cbetaRemark"
+
+CBETA 的修訂用字，但依文本授權方要求，不使用。
+
+例 TX01n0001.xml：
+
+```xml
+<app n="0140a1201">
+  <lem wit="【太虛】">歛</lem>
+  <rdg resp="CBETA" type="cbetaRemark">斂</rdg>
+</app>
+```
