@@ -2,9 +2,21 @@
 
 參考 [TEI rdg 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-rdg.html)
 
+* [一般用法](#一般用法)
 * [correctionRemark](#typecorrectionremark-考偽)
 * [variantRemark](#typevariantremark-校異)
 * [cbetaRemark](#typecbetaremark)
+
+## 一般用法
+
+記錄不同版本用字，例如 T01n0001.xml：
+
+```xml
+<app n="0001005">
+  <lem wit="【大】">韞</lem>
+  <rdg resp="Taisho" wit="【宋】【元】">溫</rdg>
+</app>
+```
 
 ## type=="correctionRemark" (考偽)
 
@@ -17,8 +29,8 @@
 ```xml
 <note n="0137011" resp="Taisho" place="foot text" type="orig">狹＝挾？</note>
 <app n="0137011">
-	<lem resp="Taisho" wit="【大】">狹</lem>
-	<rdg resp="Taisho" wit="【大】" type="correctionRemark">挾</rdg>
+  <lem resp="Taisho" wit="【大】">狹</lem>
+  <rdg resp="Taisho" wit="【大】" type="correctionRemark">挾</rdg>
 </app>
 ```
 
