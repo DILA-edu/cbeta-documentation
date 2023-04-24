@@ -32,6 +32,14 @@
 
 字型為「黑體」。目前未使用。
 
+## hide
+
+隱藏。例： TX01n0001_p0140a12
+
+```xml
+<note n="0140a1201" resp="CBETA" type="add" rend="hide" note_key="TX01.0140a12.33">斂【CB】，歛【太虛】</note>
+```
+
 ## inline
 
 例 T54n2132_p1186b04
