@@ -69,3 +69,11 @@ type="star_removed" 表示底本有個星號「＊」校勘，CBETA 修訂拿掉
   <rdg resp="Taisho" wit="【宋】【元】【明】">越</rdg>
 </app>
 ```
+
+## @rend
+
+例 Y34n0032.xml 不呈現的校勘：
+
+```xml
+<app n="0324a0101" rend="hide">...</app>
+```
