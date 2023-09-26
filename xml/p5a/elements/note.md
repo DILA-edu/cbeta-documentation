@@ -378,7 +378,7 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 
 ```xml
 <note n="0030001-n10" resp="BuBian" place="foot text" type="orig">
-  原本之中為 āsavānaṁ khayā nnāṇāya（因漏之盡因智之故）．然在是處．意義欠妥．今從沙門果經之類文 āsavānaṁ khaya-nnāṇāya。
+  原本之中為 āsavānaṁ khayā ñāṇāya（因漏之盡因智之故）．然在是處．意義欠妥．今從沙門果經之類文 āsavānaṁ khaya-ñāṇāya。
 </note>
 ```
 
