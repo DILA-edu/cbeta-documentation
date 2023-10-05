@@ -73,12 +73,28 @@
 
 ## mingti
 
-字型為「明體」。例 Y25n0025_p0417a06
+字型為「明體」(Times 字型優先)。
+
+例 Y25n0025_p0417a06
 
 ```xml
 <lg rend="mingti">
   <l>身是菩提樹，　心如明鏡臺，　時時勤拂拭，　莫使有塵埃！</l>
 </lg>
+```
+
+## mono-*
+
+等寬字體，不使用 Times.
+
+* 等寬明體 mono-mingti
+* 等寬楷體 mono-kaiti
+* 等寬黑體 mono-heiti
+
+例 G104n2251_p0295b17
+
+```xml
+<p><hi rend="mono-heiti">Ⅰ</hi>　余所編之講義草稿，將來即可依此轉授初學。</p>
 ```
 
 ## no-border
