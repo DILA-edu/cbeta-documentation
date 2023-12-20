@@ -16,6 +16,14 @@
 <seg rend="border">懸論</seg>
 ```
 
+## circle
+
+文字外包圓圈，例 G104n2254_p0335a19
+
+```xml
+<hi rend="circle">甲</hi>
+```
+
 ## circle-above
 
 上方加圈點。例 Y10n0010_p0184a13
