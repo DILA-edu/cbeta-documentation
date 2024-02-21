@@ -32,6 +32,8 @@
 <ref target="../T30/T30n1579.xml#xpath2(//0279a03)">論本卷第一</ref>
 ```
 
+其他用例參考下方 [@type](#type) 說明。
+
 ## @type
 
 ### @type='taisho'
@@ -41,6 +43,16 @@
 ```xml
 （大正<ref type="taisho" target="vol:51;page:p185b">五一．一八五中</ref>——下）
 ```
+
+當 `type="taisho"` 時 target 屬性值的樣式有如下幾種：
+
+* `no:307` 指向 T0307, 其他例子： `no:150A`, `no:150B`
+* `no:99.782` 指向 T0099 第 782 小經
+* `no:125.37.7` 指向 T0125 / 37 六重品 / 第 7 小經
+* `vol:25` 標示 冊號
+* `vol:51;page:p185b` 標示 冊號、頁碼、欄
+* 特殊例子： `no:99.726 others`
+
 ### @type='taixu'
 
 連結到太虛大師全書，例 Y02n0002.xml, p. 103a03
