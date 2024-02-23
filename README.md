@@ -6,10 +6,6 @@
 
 請參考 [CBETA 官網](http://www.cbeta.org/)
 
-## Web Service
-
-[CBETA 漢文大藏經網站網址規則](http://tripitaka.cbeta.org/url_rules) 2017-01-28
-
 ## XML
 
 CBETA 文本採用的主要格式，說明詳見 [xml](xml) 資料夾。
