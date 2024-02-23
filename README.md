@@ -42,14 +42,14 @@ CBETA 在 Github 上的 [卍續藏X2R行號對照表](https://github.com/cbeta-g
 
 ## 插圖
 
-https://github.com/cbeta-git/CBR2X-figures
+<https://github.com/cbeta-git/CBR2X-figures>
 
 ## 缺字圖檔
 
-* 漢字 https://github.com/cbeta-org/gaiji-CB
-* 悉曇字 https://github.com/cbeta-org/sd-gif
-* 蘭札體 https://github.com/cbeta-org/rj-gif
+* 漢字 <https://github.com/cbeta-org/gaiji-CB>
+* 悉曇字 <https://github.com/cbeta-org/sd-gif>
+* 蘭札體 <https://github.com/cbeta-org/rj-gif>
 
 ## 電子書封面
 
-https://github.com/cbeta-org/ebook-covers
+<https://github.com/cbeta-org/ebook-covers>
