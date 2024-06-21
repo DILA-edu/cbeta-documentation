@@ -32,6 +32,16 @@ ex: Y30n0030.xml, p. 1a05
   <p xml:id="pB25p0726a0601" rend="margin-left:1em">師拈云北斗藏身話⋯⋯</p>
 </cb:div>
 ```
+### type="di"
+
+例 T30n1579.xml
+
+```xml
+<cb:div n="1" type="di">
+  <cb:mulu n="1" level="2" type="其他">1 五識身相應地</cb:mulu>
+...
+</cb:div>
+```
 
 ### type="fen"
 
