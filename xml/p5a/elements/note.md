@@ -96,10 +96,16 @@ resp="CBETA" 表示是由 CBETA 所作修訂. (resp means responsibility)
 <note place="foot text" type="orig">⋯⋯</note>
 ```
 
-如果底本有頁尾註，卻在內文缺了註標，那麼 place 屬性裡就會沒有 text，變成這樣：
+如果底本有頁尾註，卻在內文缺了註標，那麼 place 屬性裡就會沒有 text，例 T05n0220_p0159c29​：
 
 ```xml
 <note place="foot" type="orig">⋯⋯</note>
+```
+
+如果底本​內文有​註標，卻在​頁尾缺了​校註，那麼 place 屬性裡就會沒有 foot，例 T10n0291_p0607c12：
+
+```xml
+<note place="text" type="orig">⋯⋯</note>
 ```
 
 ### inline
