@@ -34,3 +34,19 @@ ex: T54n2133A.xml, p. 1191b03
   <cb:t style="margin-left:2em"/>
 </cb:tt>
 ```
+
+## t contain lg
+
+ex: T01n0026_p0548c02
+
+```xml
+<cb:tt n="0548005" word-count="20" type="app">
+  <cb:t resp="Taisho" xml:lang="zh-Hant">
+    <lg type="regular" xml:id="lgT01p0548c0201">
+      <l>「於有見恐怖，<caesura/>無有見不懼，</l><lb n="0548c03" ed="T"/>
+      <l>是故莫樂有，<caesura/>有何不可斷。</l>
+    </lg>
+  </cb:t>
+  <cb:t resp="Taisho" xml:lang="pi" place="foot">Bhave vāhaṃ bhayaṃ disvā bhavañ ca vibhavesinaṃ bhavaṃ nābhivadiṃ kañci nandiñ ca na upādiyin ti.</cb:t>
+</cb:tt>
+```
