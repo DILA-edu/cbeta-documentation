@@ -40,3 +40,22 @@ lem 的 wit 屬性值為【大】，表示《大正藏》使用「韞」字，�
   <rdg wit="【大】">忉<lb n="0189a22" ed="T"/>利</rdg>
 </app>
 ```
+
+## lem contain div
+
+ex: T16n0665_p0403a03
+
+```xml
+<app n="0403a0301">
+  <lem wit="【CB】" resp="CBETA.ting" cb:provider="來函：萧苏晏 (2022-06-16)">
+    <cb:div type="xu">
+      <cb:mulu level="1" type="序">大唐龍興三藏聖教序</cb:mulu>
+      <head>大唐龍興三藏聖教序</head>
+      <byline cb:type="author">中宗孝皇帝製</byline>
+      <p xml:id="T16p0403a030016" cb:place="inline">蓋聞蒼蒼者天⋯⋯又若斯焉。</p>
+      ....
+    </cb:div>
+  </lem>
+  <rdg wit="【大】"><space quantity="0"/></rdg>
+</app>
+```
