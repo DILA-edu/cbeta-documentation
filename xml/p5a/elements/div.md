@@ -32,6 +32,10 @@ ex: Y30n0030.xml, p. 1a05
   <p xml:id="pB25p0726a0601" rend="margin-left:1em">師拈云北斗藏身話⋯⋯</p>
 </cb:div>
 ```
+### type="dharani"
+
+2025-03 開始，咒語都標在 p 元素上，不標在 div 上。
+
 ### type="di"
 
 例 T30n1579.xml
