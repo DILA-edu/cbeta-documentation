@@ -2,38 +2,6 @@
 
 參考：[TEI note 元素](http://www.tei-c.org/release/doc/tei-p5-doc/zh-TW/html/ref-note.html)
 
-* [大正藏校勘原文](#大正藏校勘原文)
-* [經 CBETA 修訂的校勘文字標記](#經-cbeta-修訂的校勘文字標記)
-* [place 屬性](#place-屬性)
-  * [foot](#foot)
-  * [inline](#inline)
-  * [inline2](#inline2)
-  * [interlinear](#interlinear)
-* [type](#type)
-  * [add](#add)
-  * [authorial](#authorial)
-  * [cf1, cf2, cf3](#cf1-cf2-cf3)
-  * [equivalent](#equivalent)
-  * [mod](#mod)
-  * [orig](#orig)
-  * [rest](#rest)
-  * [star](#star)
-* [subtype](#subtype)
-  * [biao 標](#biao-標)
-  * [jie 解](#jie-解)
-  * [ke 科](#ke-科)
-  * [shift 位移](#shift-位移)
-  * [規範字詞](#規範字詞)
-* [校勘編號 n](#校勘編號-n)
-  * [編號以頁為單位](#編號以頁為單位)
-  * [一條校勘拆成兩個 note](#一條校勘拆成兩個-note)
-  * [編號為 0](#編號為-0)
-  * [編號以行為單位](#編號以行為單位)
-  * [含小經編號](#含小經編號)
-* [note 夾在 l 之間](#note-夾在-l-之間)
-* [note 直接出現在 div 下](#note-直接出現在-div-下)
-* [note_key](#note_key)
- 
 ## 大正藏校勘原文
 
 大正藏校勘原文以 `<note type="orig">` 記錄
@@ -391,7 +359,8 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 
 上例中的 note 編號 `0030001-n10`, 前四碼 `0030` 表示頁碼，接下來的 `001` 表示「註一」，`n10` 表示第十號小經「須婆經第十」。
 
-## note 夾在 l 之間
+## note 出現位置 特例
+### note 夾在 l 之間
 
 例 T18n0908, p. 920b08
 
@@ -403,7 +372,7 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 <l>并及刻鏤文</l>...
 ```
 
-## note 直接出現在 div 下
+### note 直接出現在 div 下
 
 例 T02n0099_p0366b23
 
@@ -420,6 +389,15 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
   </lem>
   <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
 </app>
+```
+
+### note 直接出現在 body 下
+
+例 T03n0159_p0291a03
+
+```xml
+<lb n="0291a02" ed="T"/><cb:docNumber>No. 159</cb:docNumber>
+<lb n="0291a03" ed="T"/><note n="0291a0301" resp="CBETA" type="add" note_key="T03.0291a03.01">（大唐…年也）四百九十七字【CB】【麗-CB】，〔－〕【大】（CBETA 按：諫議大夫「孟蕑」之「蕑」字依宮本（日本宮內庁書陵部藏大藏經db2第5798帖第4圖第3行）及他校（T50n2061_p0722b02）修訂作「簡」。）</note>
 ```
 
 ## note_key
