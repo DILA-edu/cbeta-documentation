@@ -31,6 +31,7 @@
   * [編號以行為單位](#編號以行為單位)
   * [含小經編號](#含小經編號)
 * [note 夾在 l 之間](#note-夾在-l-之間)
+* [note 直接出現在 div 下](#note-直接出現在-div-下)
 * [note_key](#note_key)
  
 ## 大正藏校勘原文
@@ -400,6 +401,25 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 <note n="0920048" resp="Taisho" place="foot text" type="orig">〔并及…相〕二偈－【甲】</note>
 <note n="0920048" resp="CBETA" type="mod">〔并及刻鏤文皆如注杓相〕二偈－【甲】</note>
 <l>并及刻鏤文</l>...
+```
+
+## note 直接出現在 div 下
+
+例 T02n0099_p0366b23
+
+```xml
+<note n="0366005" resp="Taisho" place="foot text" type="orig">〔娑多…法〕二十八字－【三】</note>
+<note n="0366005" resp="CBETA" type="mod">（娑多…法）二十八字【大】，〔－〕【宋】【元】【明】</note>
+<app cb:word-count="28" n="0366005">
+  <lem wit="【大】">
+    <p>娑多耆利說偈答言：</p>
+    <lg type="regular" style="margin-left:1em;text-indent:-1em">
+      <l>「牟尼善心具，<caesura/>及身口業跡，</l>
+      <l>明行悉成就，<caesura/>讚歎於其法。」</l>
+    </lg>
+  </lem>
+  <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
+</app>
 ```
 
 ## note_key
