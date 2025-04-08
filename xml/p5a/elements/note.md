@@ -372,6 +372,20 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 <l>并及刻鏤文</l>...
 ```
 
+### note 夾在 item 之間
+
+ex: T51n2087_p0939b12
+
+```xml
+<list>
+  ...
+  <item xml:id="itemT51p0939b1201">淫薄健國</item>
+  <note n="0939005" resp="Taisho" type="orig" place="foot text">〔屈居…鎩國〕二十七字－【甲】</note>
+  <note n="0939005" resp="CBETA" type="mod">（屈居…鎩國）二十七字【大】，〔－〕【甲】</note>
+  ...
+</list>
+```
+
 ### note 直接出現在 div 下
 
 例 T02n0099_p0366b23
