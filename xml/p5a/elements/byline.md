@@ -60,3 +60,18 @@ T12n0389.xml, p. 1110c15
 ```xml
 <byline cb:type="較閱">京都古華嚴寺住持(臣)僧　(超揆)　較閱　進呈</byline>
 ```
+
+## byline 出現在 item 裡
+
+ex: T51n2073_p0155c13
+
+```xml
+<list rend="no-marker">
+  ...
+  <item xml:id="itemT51p0155c1301">
+    <title>如來興現經</title>四卷<note place="inline">是性起品無重頌偈仍將十忍品次後編之亦不題也</note>
+    <byline>西晉元康年竺法護譯</byline>
+  </item>
+  ...
+</list>
+```
