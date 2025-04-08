@@ -26,3 +26,17 @@ B17n0092.xml, p. 630a13
   ⋯⋯
 </list>
 ```
+
+## list 出現在 夾注 裡
+
+ex: T50n2054_p0286b20
+
+```xml
+<note place="inline">
+  <list rend="no-marker">
+    <item xml:id="itemT50p0286b2001">首座師雅</item>
+    ...
+    <item xml:id="itemT50p0286b2327">師正</item>
+  </list>
+</note>
+```
