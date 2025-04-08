@@ -87,7 +87,9 @@ T01n0001.xml, p. 30a17
 <note place="inline">丹本注云問中應有何等時出家諸本並闕</note>
 ```
 
-雙行夾註裡還可能有偈頌、段落，例 T53n2122_p0683a29
+#### 雙行夾註 包 偈頌、段落
+
+例 T53n2122_p0683a29
 
 ```xml
 <note place="inline">故佛本行經云...說偈云。
@@ -97,6 +99,27 @@ T01n0001.xml, p. 30a17
   <p>於是舍利弗復聞說偈云。</p>
   <lg>諸法因緣生...常說如是法</lg>
   <p>舍利弗聞已...至於佛所得阿羅漢果</p>
+</note>
+```
+
+#### 雙行夾註 包 雙行夾註
+
+例 T20n1033_p0013b04
+
+```xml
+<note place="inline">即最初者是，
+  <note n="0013038" resp="Taisho" type="orig" place="foot text">未＝末【宋】</note>
+  <note n="0013038" resp="CBETA" type="mod">未【大】，末【宋】</note>
+  <app n="0013038">
+    <lem wit="【大】">未</lem>
+    <rdg resp="Taisho" wit="【宋】">末</rdg>
+  </app>加娑嚩
+  <note n="0013039" resp="Taisho" type="orig" place="foot text">〔二合〕－【三】</note>
+  <note n="0013039" resp="CBETA" type="mod">二合【大】，〔－〕【宋】【元】【明】</note>
+  <app n="0013039">
+    <lem wit="【大】"><note place="inline">二合</note></lem>
+    <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
+  </app>賀
 </note>
 ```
 
