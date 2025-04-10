@@ -75,3 +75,22 @@ ex: T51n2073_p0155c13
   ...
 </list>
 ```
+
+## byline 出現在 p 裡面
+
+ex: T21n1239_p0202b01
+
+```xml
+<p xml:id="pT21p0202a2901">
+  <note n="0202009" resp="Taisho" type="orig" place="foot text">此奧書甲本無，（（貞享…寂））五十六字＝（（應保三年三月四日移點了））十一字【乙】</note>
+  <note n="0202009a" resp="CBETA" type="mod">（貞享…載）十九字【大】，應保三年三月四日移點了【乙】，此奧書甲本無</note>
+  <app n="0202009a" cb:word-count="19">
+    <lem wit="【大】">
+      貞享四年中春十三一挍加批了
+      <byline cb:type="other">淨嚴<note place="inline">四十九載</note></byline>
+    </lem>
+    <rdg resp="Taisho" wit="【乙】">應保三年三月四日移點了</rdg>
+  </app>
+  <note n="0202009a" type="rest" place="foot">此奧書甲本無</note>
+</p>
+```
