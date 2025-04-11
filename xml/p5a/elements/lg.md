@@ -151,3 +151,19 @@ l 可能不是直接被包在 lg 裡，而是在 lem 裡面，計算第幾個 l 
 </lg>
 ```
 
+## p/note/lg
+
+ex: T23n1443_p1019a15
+
+```xml
+<p xml:id="pT23p1018c2901">
+  ...
+  <note place="inline">
+    ...
+    <lg type="regular" xml:id="lgT23p1019a1501" style="margin-left:1em;text-indent:-1em">
+      <l>「世間五欲樂，<caesura/>或復諸天樂；<caesura/>若比愛盡樂，<caesura/>千分不及一。<caesura/>由集能生苦，<caesura/>因苦復生集；</l>
+      <l>八聖道能超，<caesura/>至妙涅盤處。<caesura/>所為布施者，<caesura/>必獲其義利；<caesura/>若為樂故施，<caesura/>後必得安樂。」</l>
+    </lg>
+  </note>
+</p>
+```
