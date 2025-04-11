@@ -383,6 +383,7 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 上例中的 note 編號 `0030001-n10`, 前四碼 `0030` 表示頁碼，接下來的 `001` 表示「註一」，`n10` 表示第十號小經「須婆經第十」。
 
 ## note 出現位置 特例
+
 ### note 夾在 l 之間
 
 例 T18n0908, p. 920b08
@@ -395,7 +396,8 @@ CBETA 校註說明這裡的修訂是關於「文字正規化」，例如《印�
 <l>并及刻鏤文</l>...
 ```
 
-### note 夾在 item 之間
+### list/note
+note 夾在 item 之間
 
 ex: T51n2087_p0939b12
 
@@ -409,32 +411,60 @@ ex: T51n2087_p0939b12
 </list>
 ```
 
-### note 直接出現在 div 下
+### body/note
 
-例 T02n0099_p0366b23
-
-```xml
-<note n="0366005" resp="Taisho" place="foot text" type="orig">〔娑多…法〕二十八字－【三】</note>
-<note n="0366005" resp="CBETA" type="mod">（娑多…法）二十八字【大】，〔－〕【宋】【元】【明】</note>
-<app cb:word-count="28" n="0366005">
-  <lem wit="【大】">
-    <p>娑多耆利說偈答言：</p>
-    <lg type="regular" style="margin-left:1em;text-indent:-1em">
-      <l>「牟尼善心具，<caesura/>及身口業跡，</l>
-      <l>明行悉成就，<caesura/>讚歎於其法。」</l>
-    </lg>
-  </lem>
-  <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
-</app>
-```
-
-### note 直接出現在 body 下
+note 直接出現在 body 下
 
 例 T03n0159_p0291a03
 
 ```xml
-<lb n="0291a02" ed="T"/><cb:docNumber>No. 159</cb:docNumber>
-<lb n="0291a03" ed="T"/><note n="0291a0301" resp="CBETA" type="add" note_key="T03.0291a03.01">（大唐…年也）四百九十七字【CB】【麗-CB】，〔－〕【大】（CBETA 按：諫議大夫「孟蕑」之「蕑」字依宮本（日本宮內庁書陵部藏大藏經db2第5798帖第4圖第3行）及他校（T50n2061_p0722b02）修訂作「簡」。）</note>
+<body>
+  ...
+  <lb n="0291a02" ed="T"/><cb:docNumber>No. 159</cb:docNumber>
+  <lb n="0291a03" ed="T"/><note n="0291a0301" resp="CBETA" type="add" note_key="T03.0291a03.01">（大唐…年也）四百九十七字【CB】【麗-CB】，〔－〕【大】（CBETA 按：諫議大夫「孟蕑」之「蕑」字依宮本（日本宮內庁書陵部藏大藏經db2第5798帖第4圖第3行）及他校（T50n2061_p0722b02）修訂作「簡」。）</note>
+  ...
+</body>
+```
+
+### div/note
+
+note 直接出現在 div 下
+
+例 T02n0099_p0366b23
+
+```xml
+<cb:div>
+  ...
+  <note n="0366005" resp="Taisho" place="foot text" type="orig">〔娑多…法〕二十八字－【三】</note>
+  <note n="0366005" resp="CBETA" type="mod">（娑多…法）二十八字【大】，〔－〕【宋】【元】【明】</note>
+  <app cb:word-count="28" n="0366005">
+    <lem wit="【大】">
+      <p>娑多耆利說偈答言：</p>
+      <lg type="regular" style="margin-left:1em;text-indent:-1em">
+        <l>「牟尼善心具，<caesura/>及身口業跡，</l>
+        <l>明行悉成就，<caesura/>讚歎於其法。」</l>
+      </lg>
+    </lem>
+    <rdg resp="Taisho" wit="【宋】【元】【明】"><space quantity="0"/></rdg>
+  </app>
+  ...
+</cb:div>
+```
+
+### div/note/p
+
+夾注下包多個 p, ex: T21n1299_p0388a16
+
+```xml
+<cb:div>
+  ...
+  <note place="inline">
+    <p xml:id="pT21p0388a1601">新演如左。...庶當代高才知此意也。</p>
+    ...
+    <lb n="0388b23" ed="T"/><p xml:id="pT21p0388b2301">　　三十日　危壁婁昴觜井柳張軫亢房尾</p>
+  </note>
+  ...
+</cb:div>
 ```
 
 ## note_key
