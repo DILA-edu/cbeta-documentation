@@ -6,6 +6,21 @@
 
 請參考 [CBETA 官網](http://www.cbeta.org/)
 
+## CBETA 數位檔案 Big Picture
+```mermaid
+flowchart TD
+    BM["BM"] --> Compare["比對"]
+    XMLP5a["XML P5a"] --> Compare
+    Compare --> P5["P5a - 比對結果"]
+    Missing["缺字庫"] --> Transform["轉檔程式"]
+    P5 --> Transform
+    Transform --> XMLP5["XML P5"]
+    Transform --> Output["HTML, EPUB, PDF, MOBI"]
+    Transform --> API["API"]
+    Authority["Authority"] --> API
+    API --> Online["Online"]
+```
+
 ## XML
 
 CBETA 文本採用的主要格式，說明詳見 [xml](xml) 資料夾。
