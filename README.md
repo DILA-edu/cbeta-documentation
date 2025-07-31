@@ -9,14 +9,13 @@
 ## CBETA 數位檔案 Big Picture
 ```mermaid
 flowchart TD
-    BM["BM"] --> Compare([比對])
-    XMLP5a["XML P5a"] --> Compare([比對])
-    Compare --> XMLP5a["XML P5a"]
-    XMLP5a["XML P5a"] --> Transform([轉檔程式])
-    Missing["缺字庫"] --> Transform([轉檔程式])
-    Transform --> XMLP5["XML P5"]
-    Transform --> Output["HTML, EPUB, PDF, MOBI"]
-    Transform --> API["API"]
+    BM["BM"] --> Compare([比對]) -- 修正 --> XMLP5a["XML P5a"]
+    XMLP5a --> Compare
+    XMLP5a --> Transform([轉檔程式])
+    Missing["缺字庫"] --> Transform
+    Transform -- 輸出 --> XMLP5["XML P5"]
+    Transform -- 輸出 --> Output["HTML, EPUB, PDF, MOBI"]
+    Transform -- 輸出 --> API["API"]
     Authority[["Authority"]] --> API
     API --> Online["Online"]
 ```
