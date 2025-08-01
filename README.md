@@ -8,40 +8,42 @@
 
 ## CBETA 數位檔案 Big Picture
 ```mermaid
-
 flowchart TD
 
   Start(["開始"])
 
   subgraph 基本資料
-    BM[/"BM（簡單標記版）"/]
-    XMLP5a[/"XML P5a"/]
+    BM:::green@{ shape: docs, label: "BM (簡單標記版)"}
+    XMLP5a:::green@{ shape: docs, label: "XML P5a"}
+    classDef green fill:#21804e
   end
 
   subgraph 資料庫
-    Authority[("Authority 資料庫")]
-    Missing[("缺字資料庫")]
+    Authority[("Authority 資料庫")]:::yellow
+    Missing[("缺字資料庫")]:::yellow
+    classDef yellow fill:#857c1b
   end
 
-  Transform[["轉檔程式"]]
-  
+  Transform[["轉檔程式"]]:::red
+  classDef red fill:#8b2c2c
 
   subgraph 公開資料
-    Output[/"HTML / EPUB / PDF / MOBI / Text / DocuXML / Docx"/]
-    XMLP5[/"XML P5（Github）"/]
-    XMLP5b[/"XML P5b（CBReader）"/]
+    Output@{ shape: docs, label: "HTML / EPUB / PDF / MOBI / Text / DocuXML / Docx"}
+    XMLP5@{ shape: docs, label: "XML P5 (Github)"}
+    XMLP5b@{ shape: docs, label: "XML P5b (CBReader)"}
   end
 
   subgraph 資料比對
-    HTMLText["HTML → 純文字"]
-    BMText["BM → 純文字"]
-    P5Text["P5 → 純文字"]
-    CBRText["CBReader → 純文字"]
-    Compare{"比對OK？"}
+    HTMLText@{ shape: docs, label: "HTML → TXT"}
+    BMText@{ shape: docs, label: "BM → TXT"}
+    P5Text@{ shape: docs, label: "P5 → TXT"}
+    CBRText@{ shape: docs, label: "CBReader → TXT"}
+    Compare{"比對OK？"}:::blue
+    classDef blue fill:#3d49be
   end
 
   subgraph cbetaonline
-    API[["API"]]
+    API[["API"]]:::red
     Online(["CBETAonline 網頁"])
   end
 
@@ -60,7 +62,8 @@ flowchart TD
   Transform --> XMLP5
   Transform --> XMLP5b
 
-  Output --> API --> Online
+  Output --> API e1@==> Online
+  e1@{ animate: true }
   
   BM --> BMText --> Compare
   XMLP5 --> P5Text --> Compare
