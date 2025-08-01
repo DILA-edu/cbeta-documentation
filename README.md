@@ -9,15 +9,54 @@
 ## CBETA 數位檔案 Big Picture
 ```mermaid
 flowchart TD
-    BM["BM"] --> Compare([比對]) -- 修正 --> XMLP5a["XML P5a"]
-    XMLP5a --> Compare
-    XMLP5a --> Transform([轉檔程式])
-    Missing["缺字庫"] --> Transform
-    Transform -- 輸出 --> XMLP5["XML P5"]
-    Transform -- 輸出 --> Output["HTML, EPUB, PDF, MOBI"]
-    Transform -- 輸出 --> API["API"]
-    Authority[["Authority"]] --> API
-    API --> Online["Online"]
+
+  subgraph 基本資料
+    BM[/"BM（簡單標記版）"/]
+    Missing[("缺字資料庫")]
+    Authority[("Authority 資料庫")]
+    XMLP5a[/"XML P5a"/]
+  end
+
+  Transform[["轉檔程式"]]
+
+  subgraph 公開資料
+    XMLP5[/"XML P5（Github）"/]
+    XMLP5b[/"XML P5b（CBReader）"/]
+  end
+
+  subgraph 資料比對
+    APIText["API → 純文字"]
+    BMText["BM → 純文字"]
+    P5Text["P5 → 純文字"]
+    CBRText["CBReader → 純文字"]
+    Compare[["比對"]]
+  end
+
+  subgraph cbetaonline
+    Output[/"HTML / EPUB / PDF / MOBI"/]
+    API[["API"]]
+    Online(["Online 網頁"])
+  end
+
+
+  %% === 資料流程 ===
+  BM --> XMLP5a
+  BM --> BMText --> Compare
+  XMLP5 --> P5Text --> Compare
+  Compare -- 修正 --> BM
+  Compare -- 修正 --> XMLP5a
+
+  XMLP5a --> Transform
+  Missing --> Transform
+  Authority --> Transform
+
+  Transform --> Output
+  Transform --> XMLP5
+  Transform --> XMLP5b
+
+  XMLP5b --> CBRText --> Compare
+  Output --> API --> Online
+  API --> APIText --> Compare
 ```
 
 ## XML
