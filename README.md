@@ -15,17 +15,17 @@ flowchart TD
   subgraph 基本資料
     BM:::green@{ shape: docs, label: "BM (簡單標記版)"}
     XMLP5a:::green@{ shape: docs, label: "XML P5a"}
-    classDef green fill:#21804e, color:white
+    classDef green fill:#21804e, color:white, stroke: blue
   end
 
   subgraph 資料庫
     Authority[("Authority 資料庫")]:::yellow
     Missing[("缺字資料庫")]:::yellow
-    classDef yellow fill:#857c1b, color:white
+    classDef yellow fill:#857c1b, color:white, stroke: blue
   end
 
   Transform[["轉檔程式"]]:::red
-  classDef red fill:#8b2c2c, color:white
+  classDef red fill:#8b2c2c, color:white, stroke: lightgreen
 
   subgraph 公開資料
     Output@{ shape: docs, label: "HTML / EPUB / PDF / MOBI / Text / DocuXML / Docx"}
@@ -39,7 +39,7 @@ flowchart TD
     P5Text@{ shape: docs, label: "P5 → TXT"}
     CBRText@{ shape: docs, label: "CBReader → TXT"}
     Compare{"比對OK？"}:::blue
-    classDef blue fill:#3d49be, color:white
+    classDef blue fill:#3d49be, color:white, stroke: yellow
   end
 
   subgraph cbetaonline
