@@ -143,7 +143,7 @@ T01n0001.xml, p. 30a17
 
 ## type
 
-type 屬性可能的值：add, authorial, cf1, cf2, cf3, equivalent, foot, inline, mod, orig, orig_biao, orig_ke, rest, star
+type 屬性可能的值：add, authorial, cf1, cf2, cf3, cf4, cf5, cf6, equivalent, foot, inline, mod, orig, orig_biao, orig_ke, rest, star
 
 ### add
 
@@ -165,7 +165,7 @@ n 屬性值是行號 `0003a19` 再加序號 `01`。
 《俱舍論<note type="authorial">（光）</note>記》
 ```
 
-### cf1, cf2, cf3
+### cf1, cf2, cf3, cf4, cf5, cf6
 
 note 在 lem 裡面，例如 T02n0099.xml
 
@@ -187,6 +187,25 @@ note 在 rdg 裡，例如：T24n1488.xml
 ```
 
 `<note type="cf1">` 裡面不一定都是 K14n0526_p0282a05 這種格式，也有可能是各種文字敍述。
+
+cf6 出現在 T04n0210.xml
+
+```xml
+<note n="0564023" resp="Taisho" type="orig" place="foot text">正＝止【元】【明】</note>
+<note n="0564023" resp="CBETA" type="mod" note_key="T04.0564b10.12">止【CB】【磧-CB】【北藏-CB】【元】【明】，正【大】</note>
+<app n="0564023">
+  <lem wit="【CB】【磧-CB】【北藏-CB】" resp="CBETA.liyi">止
+    <note type="cf1">Q28n1043_p0430a22</note>
+    <note type="cf2">P131n1423_p0020a08</note>
+    <note type="cf3">T04n0211_p0588c19</note>
+    <note type="cf4">Dhammapada 96 (PTS 1995, p. 27)</note>
+    <note type="cf5">Udānavarga 31.45 (Bernhard, Franz (ed) 1965, Udānavarga, Band I, Sanskrittexte aus der Turfanfunden X, Vandenhoeck &amp; Ruprecht, Göttingen.)</note>
+    <note type="cf6">Patna Dharmapada 88 (Cone, Margarent 1989, Journal of the Pali Text Society, Volume XIII, p. 126.)</note>
+  </lem>
+  <rdg wit="【大】">正</rdg>
+  <rdg resp="Taisho" wit="【元】【明】">止</rdg>
+</app>
+```
 
 ### equivalent
 
