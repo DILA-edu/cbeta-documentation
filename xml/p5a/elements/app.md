@@ -77,3 +77,19 @@ type="star_removed" 表示底本有個星號「＊」校勘，CBETA 修訂拿掉
 ```xml
 <app n="0324a0101" rend="hide">...</app>
 ```
+
+## @note_key
+
+對應 [CBETA 校訂考證資料庫](https://revisiondb.cbeta.org) 裡的「校注 ID」。
+
+例 T01n0001_p0001a29
+
+```xml
+<note n="0001a2901" resp="CBETA.shin" cb:provider="來函：DL (2022-03-16)" type="add" note_key="T01.0001a29.07">
+  CBETA 按：「一分四十五卷」，
+  《磧砂》乙本（QC053n0665_p0635b11）、《洪武南藏》（U089n0585_p0406a05）、《永樂北藏》（P059n0541_p0572a06-07）、《嘉興藏》（日本東京大學綜合圖書館藏正編第78帙第5冊第6圖左欄第3行）作「一分四十五卷」，
+  《福州藏》（日本宮內庁書陵部藏大藏經第2765帖第3圖第23至24行）作「二分四十品」。
+</note>
+```
+
+上面 note_key 屬性值 "T01.0001a29.07" 可用於連結到 CBETA 校訂考證資料庫： https://revisiondb.cbeta.org/?notekey=T01.0001a29.07
