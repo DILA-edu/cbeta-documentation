@@ -20,6 +20,30 @@ ex: Y30n0030.xml, p. 1a05
 
 ## @type
 
+type 屬性值 有這些：
+* "chu"
+* "commentary" (釋, 與 orig 相對)
+* "di" (地)
+* "fen" (分)
+* "hui" (會)
+* "jie"
+* "jing" (經)
+* "lg"
+* "mu"
+* "note"
+* "orig" (original, 原文, 與 commentary 相對)
+* "other"
+* "pin" (品)
+* "she" (攝) 只出現在 T30n1579.xml 《瑜伽師地論》
+* "shi" (事) 只出現在 T30n1579.xml《瑜伽師地論》
+* "toc"
+* "w" (附文)
+* "xiang"
+* "xu" (序)
+* "zhang"
+* "廣釋"
+* "續補"
+
 ### 原文 type="orig" 與 解釋 type="commentary"
 
 例如 B25n1045.xml, p. 725b20
