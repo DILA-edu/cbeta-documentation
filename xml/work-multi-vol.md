@@ -77,9 +77,11 @@ T07 | 16 | o | 六分般若-般若波羅蜜多
 
 ## 跨兩冊
 
-* A1276
-  * A097n1276.xml
-  * A098n1276.xml
+以下僅舉示例，詳細請查： https://github.com/DILA-edu/Authority-Databases/tree/master/authority_catalog 各佛典 vol 欄位。
+
+* A1267
+  * A097n1267.xml
+  * A098n1267.xml
 
 * A1501
   * A111n1501.xml
