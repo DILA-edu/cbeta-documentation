@@ -1,5 +1,15 @@
 # t
 
+## @xml:lang
+* pi
+* sa
+* sa-Sidd
+* sa-x-rj
+* san-tr
+* x-unknown
+* zh-Hant
+* zh-x-yy
+
 ## @place
 
 ### place="foot"
