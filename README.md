@@ -107,7 +107,7 @@ CBETA 在 Github 上的 [卍續藏X2R行號對照表](https://github.com/cbeta-g
 
 ## 典籍編號
 
-請看 [work-id](work-id.md)
+請看 [file-structure.md](xml/file-structure.md#典籍編號經號)
 
 ## 插圖
 

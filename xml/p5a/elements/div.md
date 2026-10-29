@@ -15,7 +15,7 @@ ex: Y30n0030.xml, p. 1a05
     <note n="0001004" resp="釋印順" type="orig">凡正楷字是<title level="m">《論》</title>文。</note>
     事契經者，謂四阿笈摩：一者、雜阿笈摩，二者、中阿笈摩，三者、長阿笈摩，四者、增一阿笈摩。...
   </p>...
-</cd:div>
+</cb:div>
 ```
 
 ## @type
