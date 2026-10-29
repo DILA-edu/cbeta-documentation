@@ -37,13 +37,25 @@ ex: T08n0235.xml
 ex: T54n2133A.xml, p. 1191b03
 
 ```xml
-<cb:tt>
-  <cb:t xml:lang="sa-Sidd" style="margin-left:0em">
-    <g ref="#SD-CFCA"/><g ref="#SD-B6A4"/><g ref="#SD-E355"/>
-  </cb:t>
-  <cb:t style="margin-left:2em"/>
+<lb n="1191b03" ed="T"/><cb:tt>
+  <cb:ttr>
+    <cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFC5"/><g ref="#SD-DA79"/><g ref="#SD-E355"/></cb:t>
+    <cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A646"/><g ref="#SD-A5E5"/><g ref="#SD-E355"/></cb:t>
+    <cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-CFCA"/><g ref="#SD-B6A4"/><g ref="#SD-E355"/></cb:t>
+    <cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5B5"/><g ref="#SD-A56F"/><g ref="#SD-E355"/></cb:t>
+    <cb:t xml:lang="sa-Sidd" style="margin-left:0em"><g ref="#SD-A5AB"/><g ref="#SD-A642"/><g ref="#SD-A5B5"/><g ref="#SD-AA5E"/><g ref="#SD-A656"/><g ref="#SD-E355"/></cb:t>
+  </cb:ttr>
+<lb n="1191b04" ed="T"/><cb:ttr>
+    <cb:t xml:lang="zh-Hant">停</cb:t>
+    <cb:t xml:lang="zh-Hant" style="margin-left:1em">毫</cb:t>
+    <cb:t style="margin-left:2em"/>
+    <cb:t xml:lang="zh-Hant">句</cb:t>
+    <cb:t xml:lang="zh-Hant">寧</cb:t>
+  </cb:ttr>
 </cb:tt>
 ```
+
+在隔行對照（[ttr 列式](tt.md#隔行對照ttr-列式)）中，沒有對應字的位置以空的 `<cb:t/>` 佔位，如上例第二列第三個 `<cb:t>`。
 
 ## t contain lg
 

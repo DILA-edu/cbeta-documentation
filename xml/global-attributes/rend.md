@@ -50,14 +50,7 @@
 
 ## inline
 
-例 T54n2132_p1186b04
-
-```xml
-<cb:tt rend="inline">
-  <cb:t xml:lang="sa-Sidd"><g ref="#SD-CFC5">􆿅</g></cb:t>
-  <cb:t xml:lang="zh-x-yy"><cb:yin><cb:zi>阿</cb:zi><cb:sg>上聲短呼</cb:sg></cb:yin></cb:t>
-</cb:tt>
-```
+目前未使用。原本用於行中對照的 `<cb:tt rend="inline">`，已改為 `<cb:tt place="inline">`，見 [tt.md](../p5a/elements/tt.md#placeinline)。
 
 ## italic
 

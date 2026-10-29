@@ -8,6 +8,7 @@
 * pi 巴利文
 * sa 梵文
 * zh 中文
+* zh-Hant 中文-繁體字
 
 最新標準參考 W3C 2014 [Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/)
 
@@ -15,12 +16,12 @@
 
 梵文-悉曇字
 
-T07n0220o.xml, p. 1110a26
+T07n0220.xml, p. 1110a26
 
 ```xml
-<cb:tt rend="inline">
-  <cb:t xml:lang="sa-Sidd"><g ref="#SD-A557">􄕗</g></cb:t>
-  <cb:t xml:lang="zh">怛</cb:t>
+<cb:tt place="inline">
+  <cb:t xml:lang="sa-Sidd"><g ref="#SD-A557"/></cb:t>
+  <cb:t xml:lang="zh-Hant">怛</cb:t>
 </cb:tt>
 ```
 
@@ -36,12 +37,12 @@ T21n1419, p. 951a15
 
 ### x-unknown
 
-T02n0099
+T02n0099.xml, p. 180b07
 
 ```xml
-<cb:tt type="app" from="beg0180006" to="end0180006">
-  <cb:t resp="#resp3" xml:lang="zh">三波提</cb:t>
-  <cb:t resp="#resp14" xml:lang="x-unknown" place="foot">Sampadī.</cb:t>
+<cb:tt n="0180006" type="app">
+  <cb:t resp="CBETA" xml:lang="zh-Hant">三波提</cb:t>
+  <cb:t resp="Taisho" xml:lang="x-unknown" place="foot">Sampadī.</cb:t>
 </cb:tt>
 ```
 
@@ -49,11 +50,11 @@ T02n0099
 
 中文音譯
 
-T54n2132, p. 1186b04
+T54n2132.xml, p. 1186b05
 
 ```xml
-<cb:tt rend="inline">
-  <cb:t xml:lang="sa-Sidd"><g ref="#SD-CFC5">􆿅</g></cb:t>
-  <cb:t xml:lang="zh-x-yy"><cb:yin><cb:zi>阿</cb:zi><cb:sg>上聲短呼</cb:sg></cb:yin></cb:t>
-</cb:tt>
+中有<cb:tt place="inline">
+  <cb:t xml:lang="sa-Sidd"><g ref="#SD-CFCB"/></cb:t>
+  <cb:t xml:lang="zh-x-yy"><cb:yin><cb:zi>紇里</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t>
+</cb:tt>等四文。
 ```

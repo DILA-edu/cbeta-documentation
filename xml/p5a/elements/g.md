@@ -24,13 +24,21 @@ ex: T21n1419, p. 951a15
 
 ## 悉曇字
 
-例 T18n0864A, p. 196a26
+例 T18n0864A.xml, p. 196a26
 
 ```xml
-<cb:tt>
-  <cb:t xml:lang="sa-Sidd">「<g ref="#SD-DA42"/></cb:t>
-  <cb:t xml:lang="zh">唵</cb:t>
-</cb:tt>
+<lb n="0196a26" ed="T"/><p xml:id="pT18p0196a2601" cb:type="dharani"><cb:tt>
+  <cb:ttr>
+    <cb:t xml:lang="sa-Sidd">「<g ref="#SD-DA42"/></cb:t>
+    <cb:t xml:lang="sa-Sidd"><g ref="#SD-A656"/></cb:t>
+    ...
+  </cb:ttr>
+<lb n="0196a27" ed="T"/><cb:ttr>
+    <cb:t xml:lang="zh-Hant">唵</cb:t>
+    <cb:t xml:lang="zh-Hant">嚩</cb:t>
+    ...
+  </cb:ttr>
+</cb:tt></p>
 ```
 
 目前使用編碼範圍：SD-A440 ~ SD-E5E3
