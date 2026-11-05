@@ -55,3 +55,26 @@ ed="X" 是《卍新纂大日本續藏經》的行號，ed="R150" 是《卍續藏
 ```xml
 <lb n="0170aa01" ed="Y" type="old"/>
 ```
+
+### forced
+
+強制換行。不帶 `@ed`、`@n`，不對應底本的行號，只表示呈現時要在此處換行。
+用在表格儲存格 (`<cell>`) 等內容會連續排列的地方，需要保留斷行時使用。
+轉為 HTML 時應輸出 `<br>`。
+
+例一：底本儲存格內第二行縮排接續的英文書目，在新行號之後加上 `<lb type="forced"/>`，讓呈現時確實換行。
+
+YP30n0031.xml, p. 13a01
+
+```xml
+<lb ed="YP" n="0013a01"/>Kathāvatthu, P. T. S. 2 volumes.
+<lb ed="YP" n="0013a02"/><lb type="forced"/>　Points of Controversy, by Aung and Mrs. Rhys Davids (London 1915).</cell></row><row><cell cols="4" style="border-left:none;border-right:none">
+```
+
+例二：底本以大括號分支的樹狀圖改為平鋪重述，在同一行內插入強制換行，分開兩個分支。
+
+YP30n0031.xml, p. 525a11
+
+```xml
+<lb ed="YP" n="0525a11"/><row><cell>28</cell><cell>有因業、有緣業｛</cell><cell>（有因＝有緣＝有緣轉業）。<lb type="forced"/>（有因＝有緣＝共業）。<note n="0525a1101" resp="CBETA.liyi" type="add" note_key="YP30.0525a11.09">CBETA 按：底本「有因＝有緣＝」下以大括號分立「有緣轉業」、「共業」二支。今為適應數位文本排版，將樹狀圖改採平鋪重述，作：（有因＝有緣＝有緣轉業）、（有因＝有緣＝共業）。</note></cell></row>
+```
